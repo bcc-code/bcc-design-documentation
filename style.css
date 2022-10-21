@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --primary-color: red;
+}
 
 *,
 *::before,
@@ -11,4 +13,9 @@ body {
     font-family: system-ui, sans-serif;
     font-size: 1.125rem;
     line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 64rem;
+    margin-inline: auto;
 }
