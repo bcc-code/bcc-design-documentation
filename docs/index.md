@@ -32,8 +32,11 @@ Complete list of **[organisation-name]**
 `https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_`**[size]**`.png`  
 
 - `64` px  
+
   ![Logo 64px](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png) 
+  
 - `32` px  
+
   ![Logo 32px](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_32.png) 
  
 
