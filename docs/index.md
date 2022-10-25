@@ -1,0 +1,6 @@
+# BCC Design Assets
+
+*
+*
+*
+*
