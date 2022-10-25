@@ -1,5 +1,8 @@
 :root {
-    --primary-color: red;
+    --primary-color: hsl(175, 100%, 15%);
+    --background-color: hsl(0, 0%, 98%);
+    --code-background-color: hsl(223, 12%, 89%);
+    --text-color: hsl(0, 0%, 15%);
 }
 
 *,
@@ -13,10 +16,7 @@ body {
     font-family: system-ui, sans-serif;
     font-size: 1.125rem;
     line-height: 1.5;
-}
-
-p {
-    margin: 0;
+    color: var(--text-color);
 }
 
 .wrapper {
@@ -28,9 +28,18 @@ p {
 }
 
 
+section {
+    display: grid;
+}
+
+code {
+    background-color: var(--code-background-color);
+    padding: 1rem 1.5rem;
+}
+
 img {
     display: block;
-    border: 1px solid red;
+    border: 1px solid var(--primary-color);
     height: 300px;
 }
 
@@ -44,10 +53,4 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-
-header {
-    background: lightgray;
-    text-align: center;
 }
