@@ -7,72 +7,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Manual</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'black-500': '#262626',
+                        'dark-green-500': '#004d46',
+                        'gray-100': '#fafafa',
+                        'gray-300': '#e0e1e6',
+                    }
+                }
+            }
+        }
+    </script>
 
 </head>
 
-<body>
+<body class="text-black-500">
 
-    <main>
-        <div class="wrapper">
-
-            <h1>BCC Logos</h1>
-
-            <section>
-                <h2>Description</h2>
-                <p>Technical documentation and guides for devs to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
-            </section>
-
-            <section>
-                <h2>Prerequisites</h2>
-                <ul>
-                    <li>List all the dependencies</li>
-                    <li>List what to use and how to use</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>How to</h2>
-
-                <ul>
-                    <li>A step by step instructions on how to use it
-
-                        <p>https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png</p>
-                        <code>https://design.bcc.no/assets/bcc-eiker/logo_bcc-eiker_primary_32.png</code>
-                    </li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Contributing</h2>
-                <p>Issue tracker: <a href="https://github.com/bcc-code/design/issues">https://github.com/bcc-code/design/issues</a></p>
-            </section>
-
-            <section>
-                <h2>License</h2>
-                <p>License information here</p>
-            </section>
-
-            <section>
-                <h2>Contact</h2>
-                <ul>
-                    <li>Link to e-mail addresses or URLs</li>
-                </ul>
-            </section>
-
-
-            <!-- <div class="group">
-                <img class="logo default" src="assets/BCC-Bergen/Logo_RGB_BCC_Bergen.svg" alt="">
-                <img class="logo default" src="assets/BCC-Drammen-Sande/Logo_RGB_BCC_Drammen_Sande.svg" alt="">
-                <img class="logo default" src="assets/BCC-Eiker/Logo_RGB_BCC_Eiker.svg" alt="">
-            </div> -->
-
-
+    <header class="bg-gray-100 py-8">
+        <div class="w-[min(90%,64rem)] mx-auto">
+            <h1 class="text-5xl font-bold">BCC Logos</h1>
         </div>
+    </header>
+    <main class="grid gap-8 w-[min(90%,64rem)] mx-auto">
+        <section class="grid gap-4 my-4">
+            <h2 class="text-3xl font-bold border-b pb-2">Description</h2>
+            <p>Technical documentation and guides for devs to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
+        </section>
+
+        <section class="grid gap-4 my-4">
+            <h2 class="text-3xl font-bold border-b pb-2">How to use it</h2>
+
+            <article class="grid gap-4">
+                <h3 class="text-xl font-bold">PNG</h3>
+                <code class="bg-gray-100 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png</code>
+
+                <div class="grid gap-4 ml-8">
+                    <h5 class="col-[-1/1] text-lg font-bold">[size]: 64/32</h5>
+                    <div class="grid gap-4 md:grid-flow-col md:auto-cols-max">
+                        <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png" alt="" class="h-16">
+                        <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green_32.png" alt="" class="h-8">
+                    </div>
+                </div>
+            </article>
+
+            <article class="grid gap-4">
+                <h3 class="text-xl font-bold">SVG</h3>
+                <code class="bg-gray-100 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color].svg</code>
+            </article>
+
+            <article class="grid gap-4">
+                <b>[orgisation-name]:</b>
+                <p>i.e:
+                <ul>
+                    <li>bcc-eiker</li>
+                    <li>bcc-bergen</li>
+                    <li>bcc-drammen-sande</li>
+                </ul>
+                </p>
+                <p>
+                    <b>[color]: primary-green</b>
+                    <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-32">
+                </p>
+                <p>
+                    <b>[color]: white</b>
+                    <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-32">
+                </p>
+            </article>
+
+            <article class="grid gap-4">
+                <h3 class="text-xl font-bold">Wordpress</h3>
+                <p>Guide how to use it on wordpress website</p>
+            </article>
+
+        </section>
+
+        <section class="grid gap-4 my-4">
+            <h2 class="text-3xl font-bold border-b pb-2">Contributing</h2>
+            <p>Issue tracker: <a href=" https://github.com/bcc-code/design/issues">https://github.com/bcc-code/design/issues</a></p>
+        </section>
+
+        <section class="grid gap-4 my-4">
+            <h2 class="text-3xl font-bold border-b pb-2">License</h2>
+            <p>License information here</p>
+        </section>
+
+        <section class=" grid gap-4 my-4">
+            <h2 class="text-3xl font-bold border-b pb-2">Contact</h2>
+            <ul>
+                <li>Link to e-mail addresses or URLs</li>
+            </ul>
+        </section>
 
     </main>
-
 </body>
 
 </html>
