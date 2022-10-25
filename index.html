@@ -14,10 +14,11 @@
             theme: {
                 extend: {
                     colors: {
-                        'black-500': '#262626',
+                        'black': '#0E0E0E',
                         'dark-green-500': '#004d46',
-                        'gray-100': '#fafafa',
-                        'gray-300': '#e0e1e6',
+                        'neutral-100': '#FAFBFC',
+                        'neutral-300': '#DFE1E6',
+                        'highlight': '#F4AE3D'
                     }
                 }
             }
@@ -26,9 +27,9 @@
 
 </head>
 
-<body class="text-black-500">
+<body class="text-black">
 
-    <header class="bg-gray-100 py-8">
+    <header class="bg-neutral-100 py-8">
         <div class="w-[min(90%,64rem)] mx-auto">
             <h1 class="text-5xl font-bold">BCC Logos</h1>
         </div>
@@ -39,44 +40,39 @@
             <p>Technical documentation and guides for devs to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
         </section>
 
-        <section class="grid gap-4 my-4">
+        <section class="grid gap-8 my-4">
             <h2 class="text-3xl font-bold border-b pb-2">How to use it</h2>
 
-            <article class="grid gap-4">
-                <h3 class="text-xl font-bold">PNG</h3>
-                <code class="bg-gray-100 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png</code>
-
-                <div class="grid gap-4 ml-8">
-                    <h5 class="col-[-1/1] text-lg font-bold">[size]: 64/32</h5>
-                    <div class="grid gap-4 md:grid-flow-col md:auto-cols-max">
+            <article class="grid gap-8">
+                <div class="grid gap-4">
+                    <code class="bg-neutral-300 text-[100%] px-4 py-2">https://design.bcc.no/assets/<span class="text-highlight">[organisation-name]</span>/logo_[organisation-name]_[color]_[size].png</code>
+                    <ul>
+                        <li>i.e:</li>
+                        <li>bcc-eiker</li>
+                        <li>bcc-bergen</li>
+                        <li>bcc-drammen-sande</li>
+                    </ul>
+                </div>
+                <div class="grid gap-4">
+                    <code class="bg-neutral-300 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_<span class="text-highlight">[color]</span></span>_[size].png</code>
+                    <div class="grid gap-16 md:grid-flow-col md:auto-cols-max">
+                        <div>
+                            <b>[color]: primary-green</b>
+                            <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-16">
+                        </div>
+                        <div>
+                            <b>[color]: white</b>
+                            <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-16">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <code class="bg-neutral-300 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_<span class="text-highlight">[size]</span></span>.png</code>
+                    <div class="grid gap-16 md:grid-flow-col md:auto-cols-max">
                         <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png" alt="" class="h-16">
                         <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green_32.png" alt="" class="h-8">
                     </div>
                 </div>
-            </article>
-
-            <article class="grid gap-4">
-                <h3 class="text-xl font-bold">SVG</h3>
-                <code class="bg-gray-100 text-[100%] px-4 py-2">https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color].svg</code>
-            </article>
-
-            <article class="grid gap-4">
-                <b>[orgisation-name]:</b>
-                <p>i.e:
-                <ul>
-                    <li>bcc-eiker</li>
-                    <li>bcc-bergen</li>
-                    <li>bcc-drammen-sande</li>
-                </ul>
-                </p>
-                <p>
-                    <b>[color]: primary-green</b>
-                    <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-32">
-                </p>
-                <p>
-                    <b>[color]: white</b>
-                    <img src="assets/bcc-valdres/logo_bcc-valdres_primary-green.svg" alt="" class="h-32">
-                </p>
             </article>
 
             <article class="grid gap-4">
