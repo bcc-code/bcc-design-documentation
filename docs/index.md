@@ -24,6 +24,7 @@ You can use the following **[color]** variants:
 - `primary-green` for light mode theme
 - `white` for dark mode theme
 
+> Example: `https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green.svg`
 
 #### PNG
 
