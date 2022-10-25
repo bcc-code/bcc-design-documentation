@@ -1,7 +1,5 @@
-remote_theme: bcc-code/bcc-docs-theme
-plugins:
-  - jekyll-remote-theme
+# remote_theme: bcc-code/bcc-docs-theme
+# plugins:
+#   - jekyll-remote-theme
 
-ignore:
-  - /_layouts
 
