@@ -15,7 +15,39 @@ body {
     line-height: 1.5;
 }
 
+p {
+    margin: 0;
+}
+
 .wrapper {
     max-width: 64rem;
     margin-inline: auto;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+img {
+    display: block;
+    border: 1px solid red;
+    height: 300px;
+}
+
+
+.group {
+    position: relative;
+    height: 400px;
+}
+
+.group img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+header {
+    background: lightgray;
+    text-align: center;
 }
