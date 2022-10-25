@@ -10,8 +10,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 ## How to use
 
-```https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png```
-
+```https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color].svg```
 
 Complete list of **[organisation-name]**
 - bcc-bergen
@@ -19,12 +18,13 @@ Complete list of **[organisation-name]**
 - bcc-eiker
 - bcc-bucharest
 
-Can only use **[color]** as `primary-green` `#004E48` for light mode and `white` `#FFFFFF` for dark mode
+Can only use **[color]** as `primary-green` for light mode and `white` for dark mode
 
+```https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png```
 PNG files has an extra variant **[size]** which can be only `64` or `32`.
 
-![64](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png).
-![32](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_32.png).
+![This is the 64px height logo](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png)
+![This is the 32px height logo](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_32.png)
 
 > Example: `https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png`
 
