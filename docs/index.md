@@ -12,7 +12,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 #### SVG
 
-```https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color].svg```  
+`https://design.bcc.no/assets/`**[organisation-name]**`/logo_`**[organisation-name]**`_[color].svg` 
 
 Complete list of **[organisation-name]**  
 - bcc-bergen
@@ -20,7 +20,8 @@ Complete list of **[organisation-name]**
 - bcc-eiker
 - bcc-bucharest
 
-You can use the following **[color]** variants: 
+`https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_`**[color]**`.svg` 
+
 - `primary-green` for light mode theme
 - `white` for dark mode theme
 
@@ -28,9 +29,8 @@ You can use the following **[color]** variants:
 
 #### PNG
 
-```https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_[size].png```  
+`https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_`**[size]**`.png`  
 
-PNG files has an extra variant **[size]** which can be:
 - `64` px  
   ![Logo 64px](https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png) 
 - `32` px  
