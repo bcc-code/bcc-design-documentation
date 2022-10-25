@@ -40,7 +40,7 @@ Complete list of **[organisation-name]**
 > Example: `https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png`
 
 ## Contributing
-You can contribute to: [GitHub Issues tracker](https://github.com/bcc-code/bcc-design/issues).
+You can contribute to: [bcc-design/issues](https://github.com/bcc-code/bcc-design/issues).
 
 ## License
 License information here
