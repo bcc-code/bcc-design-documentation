@@ -1,8 +1,3 @@
 # BCC Design Assets
 
-*
-*
-*
-*
-
-[link](https://developer.bcc.no/bcc-design/)
+[Go to bcc-design portal](https://developer.bcc.no/bcc-design/)
