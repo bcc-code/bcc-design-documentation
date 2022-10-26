@@ -23,7 +23,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
   - bcc-eiker
   - bcc-bucharest
 
-<details>
+</details>
 
 `https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_`**[color]**`.svg` 
 
