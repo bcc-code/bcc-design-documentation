@@ -17,7 +17,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 <details>
   <summary>Complete list of **[organisation-name]**</summary>
-  
+
   - bcc-bergen
   - bcc-drammen
   - bcc-eiker
