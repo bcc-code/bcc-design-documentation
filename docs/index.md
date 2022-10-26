@@ -17,7 +17,6 @@ Technical documentation and guides to facilitate the correct use of the logo of 
   * bcc-bergen
   * bcc-drammen-sande
   * bcc-eiker
-  * bcc-bucharest
 
 </details>  
 
