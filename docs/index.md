@@ -16,14 +16,18 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 
 <details>
-  <summary>Complete list of **[organisation-name]**</summary>
+  <summary>
 
-  - bcc-bergen
-  - bcc-drammen-sande
-  - bcc-eiker
-  - bcc-bucharest
+  Complete list of **[organisation-name]**
 
-</details>
+  </summary>  
+
+  * bcc-bergen
+  * bcc-drammen-sande
+  * bcc-eiker
+  * bcc-bucharest
+
+</details>  
 
 `https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_`**[color]**`.svg` 
 
