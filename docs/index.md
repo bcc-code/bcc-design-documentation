@@ -8,7 +8,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 #### SVG
 
-`https://design.bcc.no/assets/`**[organisation-name]**`/logo_`**[organisation-name]**`_[color].svg` 
+`https://design.bcc.no/assets/`**[organisation-name]**`/logo_`**[organisation-name]**`_[color].svg`  
 
 
 <details>
@@ -20,12 +20,14 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 </details>  
 
+
 `https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_`**[color]**`.svg` 
 
 - `primary-green` for light mode theme
 - `white` for dark mode theme
 
 > Example: `https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green.svg`
+
 
 #### PNG
 
@@ -42,11 +44,14 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 > Example: `https://design.bcc.no/assets/bcc-valdres/logo_bcc-valdres_primary-green_64.png`
 
+
 ## Contributing
 You can contribute to: [bcc-design/issues](https://github.com/bcc-code/bcc-design/issues).
 
+
 ## License
 License information here
+
 
 ## Contact
 Link to e-mail addresses or URLs
