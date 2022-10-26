@@ -19,9 +19,10 @@ Technical documentation and guides to facilitate the correct use of the logo of 
   <summary>Complete list of **[organisation-name]**</summary>
 
   - bcc-bergen
-  - bcc-drammen
+  - bcc-drammen-sande
   - bcc-eiker
   - bcc-bucharest
+
 
 <details>
 
