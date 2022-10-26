@@ -1,9 +1,5 @@
 # BCC Design Assets
 
-*
-*
-*
-*
 
 ## Description
 Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
@@ -20,7 +16,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
   Complete list of **[organisation-name]**
 
-  </summary>  
+  </summary>
 
   * bcc-bergen
   * bcc-drammen-sande
