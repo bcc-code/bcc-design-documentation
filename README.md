@@ -10,16 +10,16 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-| Colors | Sizes |
+| Color | Sizes (px) |
 | --- | --- |
 | dark-green | 32 |
-| dark-green | 48 |
-| dark-green | 64 |
-| dark-green | 78 |
+| - | 48 |
+| - | 64 |
+| - | 72 |
 | white | 32 |
-| white | 48 |
-| white | 64 |
-| white | 78 |
+| - | 48 |
+| - | 64 |
+| - | 72 |
 
 <details>
   <summary>Complete list of [organisation-name]</summary>  
