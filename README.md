@@ -27,50 +27,42 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 72 |
 <br>
 
-#### Organization-names
+> ### Organization-names
+> 
+> #### Organisations
+>   
+>   - bcc-media
+>   - bcc-event
+>   - bcc-ateam
+>   - bcc-fund
+>   - bcc-music
+>   - bcc-facilities
+> 
+> #### Member organisations
 
-  <details><summary><strong>Organisations</strong></summary>
-  
-  - bcc-media
-  - bcc-event
-  - bcc-ateam
-  - bcc-fund
-  - bcc-music
-  - bcc-facilities
-
-  </details>
-
-  <details><summary><strong>Member organisations</strong></summary>
-  
-  - bcc-norway
-  - bcc-germany
-
-  </details>
-
-  <details><summary><strong>Local churches</strong></summary>
-  
-  - bcc-bergen
-  - bcc-drammen-sande
-  - bcc-eiker
-  - bcc-grenland
-  - bcc-hallingdal
-  - bcc-hamar
-  - bcc-harstad
-  - bcc-honefoss
-  - bcc-molde
-  - bcc-maaloy
-  - bcc-oslo-og-follo
-  - bcc-sandefjord
-  - bcc-stavanger
-  - bcc-stord
-  - bcc-sorlandet
-  - bcc-tonsberg
-  - bcc-valdres
-  - bcc-ostfold
-
-  </details>
-
-</details>
+>   - bcc-norway
+>   - bcc-germany
+> 
+> #### Local churches
+> 
+>   - bcc-bergen
+>   - bcc-drammen-sande
+>   - bcc-eiker
+>   - bcc-grenland
+>   - bcc-hallingdal
+>   - bcc-hamar
+>   - bcc-harstad
+>   - bcc-honefoss
+>   - bcc-molde
+>   - bcc-maaloy
+>   - bcc-oslo-og-follo
+>   - bcc-sandefjord
+>   - bcc-stavanger
+>   - bcc-stord
+>   - bcc-sorlandet
+>   - bcc-tonsberg
+>   - bcc-valdres
+>   - bcc-ostfold
 
 ## Links
 
