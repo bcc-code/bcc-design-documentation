@@ -16,7 +16,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-### Color and size varibles
+### Color and size
 
 | **Color** | **Size** (px) | 
 | :--- | :--- |
