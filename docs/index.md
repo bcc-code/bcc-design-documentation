@@ -17,9 +17,8 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | --- |
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
-<br>
 
-<details><summary>List of all organisation-names</summary><br>
+<br>
 
 > ### Organisations
 >   
@@ -58,7 +57,6 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 > - bcc-valdres
 > - bcc-ostfold
 
-</details>
 
 ## Links
 
