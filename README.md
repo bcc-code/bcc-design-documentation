@@ -10,10 +10,16 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-| Variables | Description |
+| Colors | Sizes |
 | --- | --- |
-| Colors | dark-green/white |
-| Sizes | 32/48/64/72 |
+| dark-green | 32 |
+| dark-green | 48 |
+| dark-green | 64 |
+| dark-green | 78 |
+| white | 32 |
+| white | 48 |
+| white | 64 |
+| white | 78 |
 
 <details>
   <summary>Complete list of [organisation-name]</summary>  
@@ -37,7 +43,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
   * bcc-tonsberg
   * bcc-valdres
   * bcc-ostfold 
-  
+
 </details>
 
 ## Contributing
