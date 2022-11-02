@@ -7,12 +7,13 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-| Color | Sizes (px) | Color | Sizes (px)
-| --- | --- | --- |
+| Color | Sizes (px) | Color | Sizes (px) |
+| --- | --- | --- | --- |
 | dark-green | 32 | white | 32 |
 | --- | 48 | --- | 48 |
 | --- | 64 | --- | 64 |
 | --- | 72 | --- | 72 |
+
 
 | Organisations | Local churches |
 | --- | --- |
