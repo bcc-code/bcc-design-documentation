@@ -5,18 +5,18 @@
 
 ## Quickstart
 
-### PNG
+#### PNG
 
 ```bash
 https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
 ```
-### SVG
+#### SVG
 
 ```bash
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-### Color and size
+#### Color and size
 
 | **Color** | **Size** (px) | 
 | :--- | :--- |
@@ -26,7 +26,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 <details><summary>List of all organisation-names</summary><br>
 
-> ### Organisations
+> #### Organisations
 >   
 > - bcc-media
 > - bcc-event
@@ -36,13 +36,13 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 > - bcc-facilities
 <br>
 
-> ### Member organisations
+> #### Member organisations
 >
 > - bcc-norway
 > - bcc-germany
 <br>
  
-> ### Local churches
+> #### Local churches
 > 
 > - bcc-bergen
 > - bcc-drammen-sande
