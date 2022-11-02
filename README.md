@@ -2,9 +2,9 @@
 
 ## Quickstart
 ```bash
-https://design.bcc.no/assets/**organisation-name**/logo_**organisation-name**_**color**_**size**.png
+https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
 
-https://design.bcc.no/assets/**organisation-name**/logo_**organisation-name**.svg
+https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
 | **Color** | **Size** (px) | **Color** | **Size** (px) |
