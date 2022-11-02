@@ -27,7 +27,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 72 |
 <br>
 
-<details><summary>List of all organization-names</summary><br>
+#### Organization-names
 
   <details><summary><strong>Organisations</strong></summary>
   
@@ -39,8 +39,6 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
   - bcc-facilities
 
   </details>
-
-  <br>
 
   <details><summary><strong>Member organisations</strong></summary>
   
