@@ -14,27 +14,35 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 64 | --- | 64 |
 | --- | 72 | --- | 72 |
 
+<details>
+<summary> List of all organisation-name</summary>
 
-| Organisations | Local churches |
-| --- | --- |
-| bcc-media | bcc-bergen |
-| bcc-event | bcc-drammen-sande |
-| bcc-ateam | bcc-eiker |
-| bcc-fund | bcc-grenland |
-| bcc-music | bcc-hallingdal |
-| --- | bcc-hamar |
-| --- | bcc-harstad |
-| --- | bcc-honefoss |
-| --- | bcc-molde |
-| --- | bcc-maaloy |
-| --- | bcc-oslo-og-follo |
-| --- | bcc-sandefjord |
-| --- | bcc-stavanger |
-| --- | bcc-stord |
-| --- | bcc-sorlandet |
-| --- | bcc-tonsberg |
-| --- | bcc-valdres |
-| --- | bcc-ostfold |
+| bcc-media |
+| bcc-event |
+| bcc-ateam |
+| bcc-fund |
+| bcc-music |
+
+| bcc-bergen |
+| bcc-drammen-sande |
+| bcc-eiker |
+| bcc-grenland |
+| bcc-hallingdal |
+| bcc-hamar |
+| bcc-harstad |
+| bcc-honefoss |
+| bcc-molde |
+| bcc-maaloy |
+| bcc-oslo-og-follo |
+| bcc-sandefjord |
+| bcc-stavanger |
+| bcc-stord |
+| bcc-sorlandet |
+| bcc-tonsberg |
+| bcc-valdres |
+| bcc-ostfold |
+
+</details>
 
 ## Links
 
