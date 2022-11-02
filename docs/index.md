@@ -39,7 +39,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ## Links
 
 - [Documentation](https://developer.bcc.no/bcc-design)
-- [Contribute](/issues)
+- [Contribute](issues)
 
 ## License
 
