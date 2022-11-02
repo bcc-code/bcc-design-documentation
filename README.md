@@ -27,42 +27,44 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 72 |
 <br>
 
-> ### Organization-names
-> 
-> #### Organisations
->   
->   - bcc-media
->   - bcc-event
->   - bcc-ateam
->   - bcc-fund
->   - bcc-music
->   - bcc-facilities
-> 
-> #### Member organisations
+<details><summary>List of all organisation-names</summary><br>
 
->   - bcc-norway
->   - bcc-germany
+> ### Organisations
+>   
+> - bcc-media
+> - bcc-event
+> - bcc-ateam
+> - bcc-fund
+> - bcc-music
+> - bcc-facilities
+
+> ### Member organisations
+>
+> - bcc-norway
+> - bcc-germany
+ 
+> ### Local churches
 > 
-> #### Local churches
-> 
->   - bcc-bergen
->   - bcc-drammen-sande
->   - bcc-eiker
->   - bcc-grenland
->   - bcc-hallingdal
->   - bcc-hamar
->   - bcc-harstad
->   - bcc-honefoss
->   - bcc-molde
->   - bcc-maaloy
->   - bcc-oslo-og-follo
->   - bcc-sandefjord
->   - bcc-stavanger
->   - bcc-stord
->   - bcc-sorlandet
->   - bcc-tonsberg
->   - bcc-valdres
->   - bcc-ostfold
+> - bcc-bergen
+> - bcc-drammen-sande
+> - bcc-eiker
+> - bcc-grenland
+> - bcc-hallingdal
+> - bcc-hamar
+> - bcc-harstad
+> - bcc-honefoss
+> - bcc-molde
+> - bcc-maaloy
+> - bcc-oslo-og-follo
+> - bcc-sandefjord
+> - bcc-stavanger
+> - bcc-stord
+> - bcc-sorlandet
+> - bcc-tonsberg
+> - bcc-valdres
+> - bcc-ostfold
+
+</details>
 
 ## Links
 
