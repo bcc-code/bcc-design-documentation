@@ -11,7 +11,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-### Color and size
+#### Color and size
 
 | **Color** | **Size** (px) | 
 | :--- | :--- |
@@ -20,7 +20,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 <br>
 
-### Organisations
+#### Organisations
   
 - bcc-media
 - bcc-event
@@ -31,14 +31,14 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 <br>
 
-### Member organisations
+#### Member organisations
 >
 - bcc-norway
 - bcc-germany
 
 <br>
  
-### Local churches
+#### Local churches
 
 - bcc-bergen
 - bcc-drammen-sande
