@@ -13,8 +13,9 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 48 | --- | 48 |
 | --- | 64 | --- | 64 |
 | --- | 72 | --- | 72 |
+<br>
 
-<details><summary> List of all <strong>organisation-name<strong></summary><br><br>
+<details><summary> List of all <strong>organisation-name<strong></summary><br>
   
   | **Organisations** |
   | --- |
