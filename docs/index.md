@@ -1,5 +1,5 @@
-## Quickstart
-
+## Documentation
+Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
 ### PNG
 
 ```bash
