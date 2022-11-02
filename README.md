@@ -12,7 +12,12 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 | Variables | Description |
 | --- | --- |
-| Organisation-names |  
+| Colors | dark-green/white |
+| Sizes | 32/48/64/72 |
+
+<details>
+  <summary>Complete list of [organisation-name]</summary>  
+
   * bcc-bergen
   * bcc-drammen-sande
   * bcc-eiker
@@ -31,9 +36,9 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
   * bcc-sorlandet
   * bcc-tonsberg
   * bcc-valdres
-  * bcc-ostfold |
-| Colors | dark-green/white |
-| Sizes | 32/48/64/72 |
+  * bcc-ostfold 
+  
+</details>
 
 ## Contributing
 You can contribute to: [bcc-design/issues](https://github.com/bcc-code/bcc-design/issues).
