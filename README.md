@@ -34,11 +34,13 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 > - bcc-fund
 > - bcc-music
 > - bcc-facilities
+<br>
 
 > ### Member organisations
 >
 > - bcc-norway
 > - bcc-germany
+<br>
  
 > ### Local churches
 > 
