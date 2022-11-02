@@ -1,73 +1,46 @@
-# BCC Design Assets
+<p align="center">Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
+
+## Quickstart
+```bash
+https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
+
+https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
+```
+
+| Color | Sizes (px) | Color | Sizes (px) |
+| --- | --- | --- | --- |
+| dark-green | 32 | white | 32 |
+| --- | 48 | --- | 48 |
+| --- | 64 | --- | 64 |
+| --- | 72 | --- | 72 |
 
 
-## Description
-Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
+| Organisations | Local churches |
+| --- | --- |
+| bcc-media | bcc-bergen |
+| bcc-event | bcc-drammen-sande |
+| bcc-ateam | bcc-eiker |
+| bcc-fund | bcc-grenland |
+| bcc-music | bcc-hallingdal |
+| --- | bcc-hamar |
+| --- | bcc-harstad |
+| --- | bcc-honefoss |
+| --- | bcc-molde |
+| --- | bcc-maaloy |
+| --- | bcc-oslo-og-follo |
+| --- | bcc-sandefjord |
+| --- | bcc-stavanger |
+| --- | bcc-stord |
+| --- | bcc-sorlandet |
+| --- | bcc-tonsberg |
+| --- | bcc-valdres |
+| --- | bcc-ostfold |
 
-## How to use
+## Links
 
-#### SVG
-
-`https://design.bcc.no/assets/`**[organisation-name]**`/logo_`**[organisation-name]**`_[color].svg`  
-
-
-<details>
-  <summary>Complete list of [organisation-name]</summary>  
-
-  * bcc-bergen
-  * bcc-drammen-sande
-  * bcc-eiker
-  * bcc-grenland
-  * bcc-hallingdal
-  * bcc-hamar
-  * bcc-harstad
-  * bcc-horten
-  * bcc-honefoss
-  * bcc-molde
-  * bcc-maaloy
-  * bcc-oslo-og-follo
-  * bcc-sandefjord
-  * bcc-stavanger
-  * bcc-stord
-  * bcc-sorlandet
-  * bcc-tonsberg
-  * bcc-valdres
-  * bcc-ostfold
-
-</details>  
-
-
-`https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_`**[color]**`.svg` 
-
-- `dark-green` for light mode theme
-- `white` for dark mode theme
-
-> Example: `https://design.bcc.no/assets/bcc-bergen/logo_bcc-bergen.svg`
-
-
-#### PNG
-
-`https://design.bcc.no/assets/[organisation-name]/logo_[organisation-name]_[color]_`**[size]**`.png`  
-
-- `64` px  
-
-  ![Logo 64px](https://design.bcc.no/assets/bcc-bergen/logo_bcc-bergen_dark-green_64.png) 
-  
-- `32` px  
-
-  ![Logo 32px](https://design.bcc.no/assets/bcc-bergen/logo_bcc-bergen_dark-green_32.png) 
- 
-
-> Example: `https://design.bcc.no/assets/bcc-bergen/logo_bcc-bergen_dark-green_64.png`
-
-
-## Contributing
-Contribute to project: [bcc-design/issues](https://github.com/bcc-code/bcc-design/issues).
-
+- [Documentation](https://developer.bcc.no/bcc-design)
+- [Contribute](./.github/bcc-code/bcc-design/issues)
 
 ## License
-License information here
 
-
-## Contact
-Link to e-mail addresses or URLs
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
