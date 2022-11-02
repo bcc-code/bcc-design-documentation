@@ -2,21 +2,21 @@
 
 ## Quickstart
 ```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
+https://design.bcc.no/assets/**organisation-name**/logo_**organisation-name**_**color**_**size**.png
 
-https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
+https://design.bcc.no/assets/**organisation-name**/logo_**organisation-name**.svg
 ```
 
-| Color | Sizes (px) | Color | Sizes (px) |
+| **Color** | **Size** (px) | **Color** | **Size** (px) |
 | --- | --- | --- | --- |
 | dark-green | 32 | white | 32 |
 | --- | 48 | --- | 48 |
 | --- | 64 | --- | 64 |
 | --- | 72 | --- | 72 |
 
-<details><summary> List of all organisation-name</summary> 
+<details><summary> List of all <strong>organisation-name<strong></summary><br><br>
   
-  | Organisation |
+  | **Organisations** |
   | --- |
   | bcc-media |
   | bcc-event |
@@ -24,7 +24,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
   | bcc-fund |
   | bcc-music |
 
-  | Churches |
+  | **Churches** |
   | --- |
   | bcc-bergen |
   | bcc-drammen-sande |
