@@ -19,7 +19,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ### Color and size varibles
 
 | **Color** | **Size** (px) | 
-| --- | --- |
+| :--- | :--- |
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
 <br>
