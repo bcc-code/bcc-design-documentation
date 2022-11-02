@@ -15,14 +15,16 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | --- | 72 | --- | 72 |
 
 <details>
-<summary> List of all organisation-name</summary>
-
+<summary> List of all organisation-name</summary> 
+ 
+| --- |
 | bcc-media |
 | bcc-event |
 | bcc-ateam |
 | bcc-fund |
 | bcc-music |
 
+| --- |
 | bcc-bergen |
 | bcc-drammen-sande |
 | bcc-eiker |
