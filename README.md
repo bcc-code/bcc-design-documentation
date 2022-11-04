@@ -50,6 +50,7 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
+![bcc-bergen_logo](logos/bcc-bergen_logo.svg)
 
 #### PNG
 
