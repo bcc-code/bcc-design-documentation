@@ -15,12 +15,10 @@
 - bcc-fund
 - bcc-music
 - bcc-facilities
-<br>
 
 #### Member organisations
 
 - bcc-norway
-<br>
  
 #### Local churches
 
