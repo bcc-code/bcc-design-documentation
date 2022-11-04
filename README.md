@@ -23,7 +23,7 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
 
 | **Color**  	| **Size(px)**      	|
-|------------	|-------------------	|
+|:------------	|:-------------------	|
 | dark-green 	| 32 / 48 / 64 / 72 	|
 | white      	| 32 / 48 / 64 / 72 	|
 
