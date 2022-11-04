@@ -76,8 +76,7 @@ https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 
 **BCC Member Organisations**
 
-| bcc-norge 	|
-|:----------	|
+bcc-norge 	
 
 
 ## Links
