@@ -5,6 +5,53 @@
 
 ## Quickstart
 
+<details><summary>List of all organisation-names</summary><br>
+
+#### Organisations
+  
+- bcc-media
+- bcc-event
+- bcc-a-team
+- bcc-fund
+- bcc-music
+- bcc-facilities
+<br>
+
+#### Member organisations
+
+- bcc-norway
+<br>
+ 
+#### Local churches
+
+- bcc-bergen
+- bcc-drammen-sande
+- bcc-eiker
+- bcc-grenland
+- bcc-hallingdal
+- bcc-hamar
+- bcc-harstad
+- bcc-honefoss
+- bcc-molde
+- bcc-maaloy
+- bcc-oslo-og-follo
+- bcc-sandefjord
+- bcc-stavanger
+- bcc-stord
+- bcc-sorlandet
+- bcc-tonsberg
+- bcc-valdres
+- bcc-ostfold
+
+</details>
+
+#### SVG
+
+```bash
+https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
+```
+
+
 #### PNG
 
 ```bash
@@ -18,55 +65,6 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
 
-<br>
-<br>
-
-#### SVG
-
-```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
-```
-<br>
-
-<details><summary>List of all organisation-names</summary><br>
-
-> #### Organisations
->   
-> - bcc-media
-> - bcc-event
-> - bcc-a-team
-> - bcc-fund
-> - bcc-music
-> - bcc-facilities
-<br>
-
-> #### Member organisations
->
-> - bcc-norway
-<br>
- 
-> #### Local churches
-> 
-> - bcc-bergen
-> - bcc-drammen-sande
-> - bcc-eiker
-> - bcc-grenland
-> - bcc-hallingdal
-> - bcc-hamar
-> - bcc-harstad
-> - bcc-honefoss
-> - bcc-molde
-> - bcc-maaloy
-> - bcc-oslo-og-follo
-> - bcc-sandefjord
-> - bcc-stavanger
-> - bcc-stord
-> - bcc-sorlandet
-> - bcc-tonsberg
-> - bcc-valdres
-> - bcc-ostfold
-
-</details>
 
 ## Links
 
