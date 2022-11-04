@@ -46,6 +46,10 @@
 ```bash
 https://design.bcc.no/logos/organisation-name_logo.svg
 ```
+Example:
+```bash
+https://design.bcc.no/logos/bcc-bergen_logo.svg
+```
 
 #### PNG
 
@@ -58,6 +62,10 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
 
+Example:
+```bash
+https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
+```
 
 ## Links
 
