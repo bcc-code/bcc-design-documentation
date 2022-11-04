@@ -51,8 +51,6 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
 ```
 
-#### Color and size
-
 | **Color** | **Size** (px) | 
 | :--- | :--- |
 | dark-green | 32 / 48 / 64 / 72 |
