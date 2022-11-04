@@ -50,7 +50,6 @@
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 ```
 
-
 #### PNG
 
 ```bash
