@@ -14,17 +14,16 @@ or
 https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
 
-Example:
-```bash
-https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
-```
-![bcc-bergen_logo_dark-green_72](https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png "BCC Bergen Logo Dark-green 72px")
-
-
 | **Color**  	  | **Size(px)**      	|
 |:------------	|:-------------------	|
 | dark-green 	  | 32 / 48 / 64 / 72 	|
 | white      	  | 32 / 48 / 64 / 72 	|
+
+> Example:
+> ```bash
+> https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
+> ```
+> ![bcc-bergen_logo_dark-green_72](https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png "BCC Bergen Logo Dark-green 72px")
 
 <br>
 
