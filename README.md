@@ -5,9 +5,10 @@
 
 ## Quickstart
 
-| **Organisation names** |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- |
-| **Local churches** | bcc-bergen | bcc-drammen-sande | bcc-eiker | bcc-grenland | bcc-hallingdal |
+| **Organisation names** |   |   |   |   |
+| --- | --- | --- | --- | --- |
+| **Local churches** | bcc-bergen | bcc-drammen-sande | bcc-eiker | bcc-grenland | 
+|   | bcc-hallingdal |
 |   | bcc-hamar | bcc-harstad | bcc-honefoss | bcc-molde | bcc-maloy |
 |   | bcc-oslo-og-follo | bcc-sandefjord | bcc-stavanger | bcc-stord | bcc-sorlandet |
 |   | bcc-tonsberg | bcc-valdres | bcc-ostfold |   |   |
