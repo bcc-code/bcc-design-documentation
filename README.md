@@ -5,41 +5,16 @@
 
 ## Quickstart
 
-<details>
-  <summary>List of all organisation-names</summary>
-
-  #### Organisations 
-  - bcc-media
-  - bcc-event
-  - bcc-a-team
-  - bcc-fund
-  - bcc-music
-  - bcc-facilities
-
-  #### Member organisations
-  - bcc-norway
-
-  #### Local churches
-  - bcc-bergen
-  - bcc-drammen-sande
-  - bcc-eiker
-  - bcc-grenland
-  - bcc-hallingdal
-  - bcc-hamar
-  - bcc-harstad
-  - bcc-honefoss
-  - bcc-molde
-  - bcc-maaloy
-  - bcc-oslo-og-follo
-  - bcc-sandefjord
-  - bcc-stavanger
-  - bcc-stord
-  - bcc-sorlandet
-  - bcc-tonsberg
-  - bcc-valdres
-  - bcc-ostfold
-
-</details>
+| **Organisation names** | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| **Local churches** | bcc-bergen | bcc-drammen-sande | bcc-eiker | bcc-grenland | bcc-hallingdal |
+| --- | --- | --- | --- | --- | --- |
+| --- | bcc-hamar | bcc-harstad | bcc-honefoss | bcc-molde | bcc-maloy |
+| --- | bcc-oslo-og-follo | bcc-sandefjord | bcc-stavanger | bcc-stord | bcc-sorlandet |
+| --- | bcc-tonsberg | bcc-valdres | bcc-ostfold | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| **Member organisations** | bcc-norge | bcc-media | bcc-event | bcc-a-team | bcc-fund |
+| --- | bcc-music | bcc-facilities | --- | --- | --- |
 
 #### SVG
 
