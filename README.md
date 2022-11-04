@@ -67,6 +67,7 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
+![bcc-bergen_logo_dark-green_72](logos/bcc-bergen_logo_dark-green_72.png)
 
 ## Links
 
