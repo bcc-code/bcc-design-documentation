@@ -5,28 +5,16 @@
 
 ## Quickstart
 
-#### SVG
+#### Path
 
 ```bash
 https://design.bcc.no/logos/organisation-name_logo.svg
 ```
-Example:
-```bash
-https://design.bcc.no/logos/bcc-bergen_logo.svg
-```
-![bcc-bergen_logo](https://design.bcc.no/logos/bcc-bergen_logo.svg "BCC Bergen Logo")
-
-#### PNG
+or
 
 ```bash
 https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
-
-| **Color**  	  | **Size(px)**      	|
-|:------------	|:-------------------	|
-| dark-green 	  | 32 / 48 / 64 / 72 	|
-| white      	  | 32 / 48 / 64 / 72 	|
-
 
 Example:
 ```bash
@@ -34,11 +22,11 @@ https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
 ![bcc-bergen_logo_dark-green_72](https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png "BCC Bergen Logo Dark-green 72px")
 
-Example:
-```bash
-https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
-```
-![bcc-bergen_logo_white_72](https://design.bcc.no/logos/bcc-bergen_logo_white_72.png "BCC Bergen Logo White 72px")
+
+| **Color**  	  | **Size(px)**      	|
+|:------------	|:-------------------	|
+| dark-green 	  | 32 / 48 / 64 / 72 	|
+| white      	  | 32 / 48 / 64 / 72 	|
 
 <br>
 
