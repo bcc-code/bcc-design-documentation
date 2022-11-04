@@ -1,11 +1,12 @@
 ## Documentation
 Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
-### PNG
+
+#### PNG
 
 ```bash
 https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
 ```
-### SVG
+#### SVG
 
 ```bash
 https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
@@ -17,25 +18,24 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 | :--- | :--- |
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
-
 <br>
+
+
+**List of all organisation-names**
 
 #### Organisations
   
 - bcc-media
 - bcc-event
-- bcc-ateam
+- bcc-a-team
 - bcc-fund
 - bcc-music
 - bcc-facilities
-
 <br>
 
 #### Member organisations
->
-- bcc-norway
-- bcc-germany
 
+- bcc-norway
 <br>
  
 #### Local churches
@@ -59,10 +59,12 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 - bcc-valdres
 - bcc-ostfold
 
+</details>
+
 ## Links
 
-- [Github](https://github.com/bcc-code/bcc-design)
+- [Documentation](https://developer.bcc.no/bcc-design)
 
 ## License
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+[Apache License 2.0](LICENSE.md)
