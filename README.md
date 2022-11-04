@@ -39,7 +39,6 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 > #### Member organisations
 >
 > - bcc-norway
-> - bcc-germany
 <br>
  
 > #### Local churches
@@ -71,4 +70,4 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 ## License
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+[Apache License 2.0](LICENSE.md)
