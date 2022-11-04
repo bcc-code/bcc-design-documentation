@@ -1,10 +1,9 @@
-
-
 # BCC Design Assets
 
 ## Documentation
-Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
+<p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
 
+<p>
 
 **List of all organisation-names**
 
@@ -38,20 +37,25 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 - bcc-tonsberg
 - bcc-valdres
 - bcc-ostfold
+</p>
 
 #### SVG
 
+<p>
 ```bash
 https://design.bcc.no/logos/organisation-name_logo.svg
 ```
+</p>
+
 Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
-![bcc-bergen_logo](https://design.bcc.no/logos/bcc-bergen_logo.svg "BCC Bergen Logo")
+<img src="https://design.bcc.no/logos/bcc-bergen_logo.svg" alt="BCC Bergen Logo" style="background-color:#F5F1EA; padding: 1rem"/>
 
 #### PNG
 
+<p>
 ```bash
 https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
@@ -60,18 +64,19 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 | :--- | :--- |
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
+</p>
 
 Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
-![bcc-bergen_logo_dark-green_72](https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png "BCC Bergen Logo Dark-green 72px")
+<img src="https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png" alt="BCC Bergen Logo Dark-green 72px" style="background-color:#F5F1EA; padding: 1rem"/>
 
 Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
-<img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" style=" background-color:#004E48; padding: 1rem"/>
+<img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" style="background-color:#004E48; padding: 1rem"/>
 
 
 ## Links
