@@ -3,8 +3,6 @@
 ## Documentation
 <p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
 
-<p>
-
 **List of all organisation-names**
 
 **Organisations**
@@ -38,18 +36,15 @@
 - bcc-valdres
 - bcc-ostfold
 
-</p>
 
 #### SVG
 
-<p>
 ```bash
 https://design.bcc.no/logos/organisation-name_logo.svg
 ```
-</p>
-
 <br>
-<p>Example:</p>
+<p>Example 1:</p>
+
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
@@ -71,7 +66,8 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 | white | 32 / 48 / 64 / 72 |
 
 <br>
-<p>Example:</p>
+<p>Example 1:</p>
+
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
@@ -80,7 +76,8 @@ https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 </p>
 
 <br>
-<p>Example:</p>
+<p>Example 2:</p>
+
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
