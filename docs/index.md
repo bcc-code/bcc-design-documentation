@@ -3,16 +3,14 @@
 ## Documentation
 <p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
 
-| **Organisation names** | --- | --- | --- | --- | --- |
+| **Organisation names** |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- |
 | **Local churches** | bcc-bergen | bcc-drammen-sande | bcc-eiker | bcc-grenland | bcc-hallingdal |
-| --- | --- | --- | --- | --- | --- |
-| --- | bcc-hamar | bcc-harstad | bcc-honefoss | bcc-molde | bcc-maloy |
-| --- | bcc-oslo-og-follo | bcc-sandefjord | bcc-stavanger | bcc-stord | bcc-sorlandet |
-| --- | bcc-tonsberg | bcc-valdres | bcc-ostfold | --- | --- |
-| --- | --- | --- | --- | --- | --- |
+|   | bcc-hamar | bcc-harstad | bcc-honefoss | bcc-molde | bcc-maloy |
+|   | bcc-oslo-og-follo | bcc-sandefjord | bcc-stavanger | bcc-stord | bcc-sorlandet |
+|   | bcc-tonsberg | bcc-valdres | bcc-ostfold |   |   |
 | **Member organisations** | bcc-norge | bcc-media | bcc-event | bcc-a-team | bcc-fund |
-| --- | bcc-music | bcc-facilities | --- | --- | --- |
+|   | bcc-music | bcc-facilities |   |   |   |
 
 
 **Organisations**
