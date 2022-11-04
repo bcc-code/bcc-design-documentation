@@ -3,15 +3,6 @@
 ## Documentation
 Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).
 
-#### PNG
-
-```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
-```
-
-#### Color and size
-
-
 <details>
   <summary>List of all organisation-names</summary>
 
