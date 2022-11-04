@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 # BCC Design Assets
 
 ## Documentation
