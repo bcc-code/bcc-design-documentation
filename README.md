@@ -30,7 +30,7 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 >   
 > - bcc-media
 > - bcc-event
-> - bcc-ateam
+> - bcc-a-team
 > - bcc-fund
 > - bcc-music
 > - bcc-facilities
