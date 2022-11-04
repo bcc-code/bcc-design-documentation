@@ -51,7 +51,9 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
-<img src="https://design.bcc.no/logos/bcc-bergen_logo.svg" alt="BCC Bergen Logo" style="background-color:#F5F1EA; padding: 1rem"/>
+<p style="background-color:#F5F1EA; padding: 1rem">
+    <img src="https://design.bcc.no/logos/bcc-bergen_logo.svg" alt="BCC Bergen Logo" />
+</p>
 
 #### PNG
 
@@ -70,18 +72,23 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
-<img src="https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png" alt="BCC Bergen Logo Dark-green 72px" style="background-color:#F5F1EA; padding: 1rem"/>
+<p style="background-color:#F5F1EA; padding: 1rem">
+    <img src="https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png" alt="BCC Bergen Logo Dark-green 72px"/>
+</p>
 
 Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
-<img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" style="background-color:#004E48; padding: 1rem"/>
+
+<p style="background-color:#004E48; padding: 1rem">
+    <img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" />
+</p>
 
 
 ## Links
 
-- [Github](https://github.com/bcc-code/bcc-design)
+[Github](https://github.com/bcc-code/bcc-design)
 
 ## License
 
