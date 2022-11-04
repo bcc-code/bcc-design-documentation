@@ -70,7 +70,7 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 
 ## Links
 
-- [Documentation](https://developer.bcc.no/bcc-design)
+[Documentation](https://developer.bcc.no/bcc-design)
 
 ## License
 
