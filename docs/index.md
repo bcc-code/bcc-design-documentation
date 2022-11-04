@@ -3,48 +3,6 @@
 ## Documentation
 <p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
 
-| **Organisation names** |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- |
-| **Local churches** | bcc-bergen | bcc-drammen-sande | bcc-eiker | bcc-grenland | bcc-hallingdal |
-|   | bcc-hamar | bcc-harstad | bcc-honefoss | bcc-molde | bcc-maloy |
-|   | bcc-oslo-og-follo | bcc-sandefjord | bcc-stavanger | bcc-stord | bcc-sorlandet |
-|   | bcc-tonsberg | bcc-valdres | bcc-ostfold |   |   |
-| **Member organisations** | bcc-norge | bcc-media | bcc-event | bcc-a-team | bcc-fund |
-|   | bcc-music | bcc-facilities |   |   |   |
-
-
-**Organisations**
-- bcc-media
-- bcc-event
-- bcc-a-team
-- bcc-fund
-- bcc-music
-- bcc-facilities
-
-**Member organisations**
-- bcc-norway
-
-**Local churches**
-- bcc-bergen
-- bcc-drammen-sande
-- bcc-eiker
-- bcc-grenland
-- bcc-hallingdal
-- bcc-hamar
-- bcc-harstad
-- bcc-honefoss
-- bcc-molde
-- bcc-maloy
-- bcc-oslo-og-follo
-- bcc-sandefjord
-- bcc-stavanger
-- bcc-stord
-- bcc-sorlandet
-- bcc-tonsberg
-- bcc-valdres
-- bcc-ostfold
-
-
 #### SVG
 
 ```bash
@@ -93,6 +51,27 @@ https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
     <img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" />
 </p>
 
+<br>
+
+### Organisation names
+
+| **Local Churches** 	|                   	|                	|               	|           	|
+|--------------------	|-------------------	|----------------	|---------------	|-----------	|
+| bcc-bergen         	| bcc-drammen-sande 	| bcc-eiker      	| bcc-grenland  	| bcc-molde 	|
+| bcc-hallingdal     	| bcc-hamar         	| bcc-harstad    	| bcc-honefoss  	| bcc-molde 	|
+| bcc-maloy          	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord 	|
+| bcc-sorlandet      	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|           	|
+
+
+| **BCC Organisations** 	|           	|                	|
+|-----------------------	|-----------	|----------------	|
+| bcc-media             	| bcc-event 	| bcc-a-team     	|
+| bcc-fund              	| bcc-music 	| bcc-facilities 	|
+
+
+| **BCC Member Organisations** 	|
+|------------------------------	|
+| bcc-norge                    	|
 
 ## Links
 
