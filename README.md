@@ -8,7 +8,6 @@
 <details>
   <summary>List of all organisation-names</summary>
 
-
   #### Organisations 
   - bcc-media
   - bcc-event
@@ -17,10 +16,8 @@
   - bcc-music
   - bcc-facilities
 
-
   #### Member organisations
   - bcc-norway
-  
 
   #### Local churches
   - bcc-bergen
