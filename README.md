@@ -5,26 +5,6 @@
 
 ## Quickstart
 
-**Organisation names**
-
-| **Local Churches** 	|                   	|                	|               	|           	|
-|--------------------	|-------------------	|----------------	|---------------	|-----------	|
-| bcc-bergen         	| bcc-drammen-sande 	| bcc-eiker      	| bcc-grenland  	| bcc-molde 	|
-| bcc-hallingdal     	| bcc-hamar         	| bcc-harstad    	| bcc-honefoss  	| bcc-molde 	|
-| bcc-maloy          	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord 	|
-| bcc-sorlandet      	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|           	|
-
-
-| **BCC Organisations** 	|           	|                	|
-|-----------------------	|-----------	|----------------	|
-| bcc-media             	| bcc-event 	| bcc-a-team     	|
-| bcc-fund              	| bcc-music 	| bcc-facilities 	|
-
-
-| **BCC Member Organisations** 	|
-|------------------------------	|
-| bcc-norge                    	|
-
 #### SVG
 
 ```bash
@@ -58,6 +38,28 @@ Example:
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
 ![bcc-bergen_logo_white_72](https://design.bcc.no/logos/bcc-bergen_logo_white_72.png "BCC Bergen Logo White 72px")
+
+<br>
+
+### Organisation names
+
+| **Local Churches** 	|                   	|                	|               	|           	|
+|--------------------	|-------------------	|----------------	|---------------	|-----------	|
+| bcc-bergen         	| bcc-drammen-sande 	| bcc-eiker      	| bcc-grenland  	| bcc-molde 	|
+| bcc-hallingdal     	| bcc-hamar         	| bcc-harstad    	| bcc-honefoss  	| bcc-molde 	|
+| bcc-maloy          	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord 	|
+| bcc-sorlandet      	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|           	|
+
+
+| **BCC Organisations** 	|           	|                	|
+|-----------------------	|-----------	|----------------	|
+| bcc-media             	| bcc-event 	| bcc-a-team     	|
+| bcc-fund              	| bcc-music 	| bcc-facilities 	|
+
+
+| **BCC Member Organisations** 	|
+|------------------------------	|
+| bcc-norge                    	|
 
 ## Links
 
