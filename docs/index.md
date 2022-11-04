@@ -8,11 +8,6 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 ```bash
 https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
 ```
-#### SVG
-
-```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
-```
 
 #### Color and size
 
@@ -23,6 +18,12 @@ https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
 
 <br>
 <br>
+
+#### SVG
+
+```bash
+https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
+```
 
 **List of all organisation-names**
 
