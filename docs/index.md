@@ -55,25 +55,29 @@ https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 
 ### Organisation names
 
-| **Local Churches** 	|                   	|                	|               	|           	|
-|--------------------	|-------------------	|----------------	|---------------	|-----------	|
-| bcc-bergen         	| bcc-drammen-sande 	| bcc-eiker      	| bcc-grenland  	| bcc-molde 	|
-| bcc-hallingdal     	| bcc-hamar         	| bcc-harstad    	| bcc-honefoss  	| bcc-molde 	|
-| bcc-maloy          	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord 	|
-| bcc-sorlandet      	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|           	|
+
+**Local Churches** 
+
+| bcc-bergen    	| bcc-drammen-sande 	| bcc-eiker      	| bcc-grenland  	| bcc-hallingdal 	|
+|---------------	|-------------------	|----------------	|---------------	|----------------	|
+| bcc-hamar     	| bcc-harstad       	| bcc-horten     	| bcc-honefoss  	| bcc-molde      	|
+| bcc-maloy     	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord      	|
+| bcc-sorlandet 	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|                	|
 
 <br>
 
-| **BCC Organisations** 	|           	|                	|
-|-----------------------	|-----------	|----------------	|
-| bcc-media             	| bcc-event 	| bcc-a-team     	|
-| bcc-fund              	| bcc-music 	| bcc-facilities 	|
+**BCC Organisations**
+
+| bcc-media 	| bcc-event 	| bcc-a-team     	|
+|-----------	|-----------	|----------------	|
+| bcc-fund  	| bcc-music 	| bcc-facilities 	|
 
 <br>
 
-| **BCC Member Organisations** 	|
-|------------------------------	|
-| bcc-norge                    	|
+**BCC Member Organisations**
+
+| bcc-norge     |
+|-------------  |
 
 ## Links
 
