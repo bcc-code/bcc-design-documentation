@@ -62,12 +62,14 @@ https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 | bcc-maloy          	| bcc-oslo-og-follo 	| bcc-sandefjord 	| bcc-stavanger 	| bcc-stord 	|
 | bcc-sorlandet      	| bcc-tonsberg      	| bcc-valdres    	| bcc-ostfold   	|           	|
 
+<br>
 
 | **BCC Organisations** 	|           	|                	|
 |-----------------------	|-----------	|----------------	|
 | bcc-media             	| bcc-event 	| bcc-a-team     	|
 | bcc-fund              	| bcc-music 	| bcc-facilities 	|
 
+<br>
 
 | **BCC Member Organisations** 	|
 |------------------------------	|
