@@ -65,14 +65,14 @@ https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 | bcc-tonsberg      	| [[svg]](https://design.bcc.no/logos/bcc-tonsberg_logo.svg) 	| [[32]](https://design.bcc.no/logos/bcc-tonsberg_logo_dark-green_32.png) - [[48]](https://design.bcc.no/logos/bcc-tonsberg_logo_dark-green_48.png) - [[64]](https://design.bcc.no/logos/bcc-tonsberg_logo_dark-green_64.png) - [[72]](https://design.bcc.no/logos/bcc-tonsberg_logo_dark-green_72.png) 	| [[32]](https://design.bcc.no/logos/bcc-tonsberg_logo_white_32.png) - [[48]](https://design.bcc.no/logos/bcc-tonsberg_logo_white_48.png) - [[64]](https://design.bcc.no/logos/bcc-tonsberg_logo_white_64.png) - [[72]](https://design.bcc.no/logos/bcc-tonsberg_logo_white_72.png) 	|
 | bcc-valdres       	| [[svg]](https://design.bcc.no/logos/bcc-valdres_logo.svg) 	| [[32]](https://design.bcc.no/logos/bcc-valdres_logo_dark-green_32.png) - [[48]](https://design.bcc.no/logos/bcc-valdres_logo_dark-green_48.png) - [[64]](https://design.bcc.no/logos/bcc-valdres_logo_dark-green_64.png) - [[72]](https://design.bcc.no/logos/bcc-valdres_logo_dark-green_72.png) 	| [[32]](https://design.bcc.no/logos/bcc-valdres_logo_white_32.png) - [[48]](https://design.bcc.no/logos/bcc-valdres_logo_white_48.png) - [[64]](https://design.bcc.no/logos/bcc-valdres_logo_white_64.png) - [[72]](https://design.bcc.no/logos/bcc-valdres_logo_white_72.png) 	|
 | bcc-ostfold       	| [[svg]](https://design.bcc.no/logos/bcc-ostfold_logo.svg) 	| [[32]](https://design.bcc.no/logos/bcc-ostfold_logo_dark-green_32.png) - [[48]](https://design.bcc.no/logos/bcc-ostfold_logo_dark-green_48.png) - [[64]](https://design.bcc.no/logos/bcc-ostfold_logo_dark-green_64.png) - [[72]](https://design.bcc.no/logos/bcc-ostfold_logo_dark-green_72.png) 	| [[32]](https://design.bcc.no/logos/bcc-ostfold_logo_white_32.png) - [[48]](https://design.bcc.no/logos/bcc-ostfold_logo_white_48.png) - [[64]](https://design.bcc.no/logos/bcc-ostfold_logo_white_64.png) - [[72]](https://design.bcc.no/logos/bcc-ostfold_logo_white_72.png) 	|
-|                     |
+| -                   |
 | bcc-media       	  |
 | bcc-event       	  |
 | bcc-a-team       	  |
 | bcc-fund       	    |
 | bcc-music       	  |
 | bcc-facilities      |
-|                     |
+| -                   |
 | bcc-norge           |
 
 
