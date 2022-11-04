@@ -50,7 +50,7 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
-![bcc-bergen_logo](logos/bcc-bergen_logo.svg)
+![bcc-bergen_logo](logos/bcc-bergen_logo.svg "BCC Bergen Logo")
 
 #### PNG
 
@@ -67,7 +67,13 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
-![bcc-bergen_logo_dark-green_72](logos/bcc-bergen_logo_dark-green_72.png)
+![bcc-bergen_logo_dark-green_72](logos/bcc-bergen_logo_dark-green_72.png "BCC Bergen Logo Dark-green 72px")
+
+Example:
+```bash
+https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
+```
+![bcc-bergen_logo_white_72](logos/bcc-bergen_logo_white_72.png "BCC Bergen Logo White 72px")
 
 ## Links
 
