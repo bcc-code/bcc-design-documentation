@@ -42,13 +42,13 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 #### SVG
 
 ```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name.svg
+https://design.bcc.no/logos/organisation-name_logo.svg
 ```
 
 #### PNG
 
 ```bash
-https://design.bcc.no/assets/organisation-name/logo_organisation-name_color_size.png
+https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
 
 | **Color** | **Size** (px) | 
