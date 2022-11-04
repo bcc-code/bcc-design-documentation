@@ -71,7 +71,7 @@ Example:
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
-![bcc-bergen_logo_white_72](https://design.bcc.no/logos/bcc-bergen_logo_white_72.png "BCC Bergen Logo White 72px")
+<img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" style=" background-color:#004E48; padding: 1rem"/>
 
 
 ## Links
