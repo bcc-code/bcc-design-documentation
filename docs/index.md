@@ -1,3 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
 # BCC Design Assets
 
 ## Documentation
@@ -6,7 +11,7 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 
 **List of all organisation-names**
 
-***Organisations*** 
+**Organisations**
 - bcc-media
 - bcc-event
 - bcc-a-team
@@ -14,10 +19,10 @@ Technical documentation and guides to facilitate the correct use of the logo of 
 - bcc-music
 - bcc-facilities
 
-***Member organisations***
+**Member organisations**
 - bcc-norway
 
-***Local churches***
+**Local churches**
 - bcc-bergen
 - bcc-drammen-sande
 - bcc-eiker
