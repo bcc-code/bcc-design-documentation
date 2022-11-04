@@ -37,6 +37,7 @@
 - bcc-tonsberg
 - bcc-valdres
 - bcc-ostfold
+
 </p>
 
 #### SVG
@@ -47,7 +48,8 @@ https://design.bcc.no/logos/organisation-name_logo.svg
 ```
 </p>
 
-Example:
+<br>
+<p>Example:</p>
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo.svg
 ```
@@ -55,9 +57,10 @@ https://design.bcc.no/logos/bcc-bergen_logo.svg
     <img src="https://design.bcc.no/logos/bcc-bergen_logo.svg" alt="BCC Bergen Logo" />
 </p>
 
+<br>
+
 #### PNG
 
-<p>
 ```bash
 https://design.bcc.no/logos/organisation-name_logo_color_size.png
 ```
@@ -66,9 +69,9 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 | :--- | :--- |
 | dark-green | 32 / 48 / 64 / 72 |
 | white | 32 / 48 / 64 / 72 |
-</p>
 
-Example:
+<br>
+<p>Example:</p>
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
 ```
@@ -76,11 +79,11 @@ https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png
     <img src="https://design.bcc.no/logos/bcc-bergen_logo_dark-green_72.png" alt="BCC Bergen Logo Dark-green 72px"/>
 </p>
 
-Example:
+<br>
+<p>Example:</p>
 ```bash
 https://design.bcc.no/logos/bcc-bergen_logo_white_72.png
 ```
-
 <p style="background-color:#004E48; padding: 1rem">
     <img src="https://design.bcc.no/logos/bcc-bergen_logo_white_72.png" alt="BCC Bergen Logo White 72px" />
 </p>
