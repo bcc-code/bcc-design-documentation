@@ -14,7 +14,7 @@
             'Content-Type': 'application/json'
         }
 
-        fetch(api_url)
+        fetch(api_url, api_config)
             .then((response) => response.json())
             .then((data) => console.log(data))
 
