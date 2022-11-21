@@ -23,6 +23,16 @@
     "Gradient 1": {
       "value": "linear-gradient(47deg, #004641 0%, #004641c2 100%)",
       "type": "color"
+    },
+    "gray": {
+      "500": {
+        "value": "#6b7280",
+        "type": "color"
+      },
+      "900": {
+        "value": "#1f1e1e",
+        "type": "color"
+      }
     }
   },
   "$themes": [],
