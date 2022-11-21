@@ -1,11 +1,11 @@
 {
     "source": [
-        "output.json"
+        "tokens/output.json"
     ],
     "platforms": {
         "css": {
             "transformGroup": "css",
-            "buildPath": "tokens/css/",
+            "buildPath": "tokens/",
             "files": [
                 {
                     "destination": "global.css",

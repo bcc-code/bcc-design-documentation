@@ -1,0 +1,44 @@
+{
+  "xs": {
+    "value": 4,
+    "type": "borderRadius"
+  },
+  "s": {
+    "value": 8,
+    "type": "borderRadius"
+  },
+  "m": {
+    "value": 16,
+    "type": "borderRadius"
+  },
+  "l": {
+    "value": 32,
+    "type": "borderRadius"
+  },
+  "xl": {
+    "value": 64,
+    "type": "borderRadius"
+  },
+  "Gradient 1": {
+    "value": "linear-gradient(47deg, #004641 0%, #004641c2 100%)",
+    "type": "color"
+  },
+  "gray": {
+    "200": {
+      "value": "#f3f4f6",
+      "type": "color"
+    },
+    "300": {
+      "value": "#e5e7eb",
+      "type": "color"
+    },
+    "500": {
+      "value": "#6b7280",
+      "type": "color"
+    },
+    "900": {
+      "value": "#1f1e1e",
+      "type": "color"
+    }
+  }
+}

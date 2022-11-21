@@ -1,0 +1,17 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 21 Nov 2022 12:38:44 GMT
+ */
+
+:root {
+  --xs: 4;
+  --s: 8;
+  --m: 16;
+  --l: 32;
+  --xl: 64;
+  --gradient-1: linear-gradient(47deg, #004641 0%, #004641c2 100%);
+  --gray-200: #f3f4f6;
+  --gray-300: #e5e7eb;
+  --gray-500: #6b7280;
+  --gray-900: #1f1e1e;
+}
