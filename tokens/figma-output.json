@@ -25,6 +25,10 @@
       "type": "color"
     },
     "gray": {
+      "300": {
+        "value": "#e5e7eb",
+        "type": "color"
+      },
       "500": {
         "value": "#6b7280",
         "type": "color"
