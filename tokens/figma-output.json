@@ -1,0 +1,34 @@
+{
+  "global": {
+    "xs": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "32",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "64",
+      "type": "borderRadius"
+    },
+    "Gradient 1": {
+      "value": "linear-gradient(47deg, #004641 0%, #004641c2 100%)",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
