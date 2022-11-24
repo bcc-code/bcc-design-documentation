@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "./componentsPackage/**"
+      - "./tokens/**"
+  workflow_dispatch:
+
 jobs:
     release:
         permissions:
