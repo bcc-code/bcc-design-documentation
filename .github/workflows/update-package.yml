@@ -34,11 +34,6 @@ jobs:
             - name: 'cat package.json'
               run: cat ./componentsPackage/package.json
 
-            # - name: Increment package.json version
-            #   uses: jaywcjlove/github-action-package@main
-            #   with:
-            #     version: repository.type,repository.url,keywords
-
             - name: 🚀 publish
               run: npm publish --access public
               working-directory: componentsPackage
