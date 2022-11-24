@@ -2,9 +2,11 @@ name: "BCC common components package release 🚀"
 
 on:
     push:
-        branches: 
+        branches:
          - main
-
+        paths:
+          - "bcc-design/tokens/**"
+      workflow_dispatch:
 
 jobs:
     release:
@@ -20,6 +22,6 @@ jobs:
                   registry-url: https://registry.npmjs.org
             - name: 🚀 publish
               run: npm publish --access public
-              working-directory: BCCComponents
+              working-directory: bcc-design/componentsPackage
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
