@@ -1,12 +1,12 @@
 name: "BCC common components package release 🚀"
 
 on:
-    push:
-        branches:
-         - main
-        paths:
-          - "bcc-design/tokens/**"
-      workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "bcc-design/tokens/**"
+  workflow_dispatch:
 
 jobs:
     release:
