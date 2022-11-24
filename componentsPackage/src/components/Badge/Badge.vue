@@ -5,6 +5,7 @@
   </component>
 </template>
 <script lang="ts" setup>
+
 import { computed, toRefs, useSlots } from 'vue'
 import type { PropType } from 'vue'
 import type { BadgeType, BadgeSize } from './types'
