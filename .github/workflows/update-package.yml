@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - "./componentsPackage/**"
-      - "./tokens/**"
+      - "componentsPackage/**"
+      - "tokens/**"
   workflow_dispatch:
 
 jobs:
