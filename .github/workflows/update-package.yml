@@ -20,18 +20,19 @@ jobs:
                   registry-url: https://registry.npmjs.org
 
             - name: 'cat package.json'
-              run: cat ./package.json
+              run: cat ./componentsPackage/package.json
 
             - name: 'Automated Version Bump'
               id: version-bump
               uses: 'phips28/gh-action-bump-version@master'
               with:
-                tag-prefix: 'v'
+                version-type: 'minor'
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                PACKAGEJSON_DIR: './componentsPackage'
 
             - name: 'cat package.json'
-              run: cat ./package.json
+              run: cat ./componentsPackage/package.json
 
             # - name: Increment package.json version
             #   uses: jaywcjlove/github-action-package@main
