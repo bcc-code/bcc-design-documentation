@@ -1,17 +1,70 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Nov 2022 11:37:09 GMT
+ * Generated on Fri, 25 Nov 2022 14:13:57 GMT
  */
 
 :root {
-  --xs: 4;
-  --s: 8;
-  --m: 16;
-  --l: 32;
-  --xl: 64;
-  --gradient-1: linear-gradient(47deg, #004641 0%, #004641c2 100%);
-  --gray-200: #f3f4f6;
-  --gray-300: #e5e7eb;
-  --gray-500: #6b7280;
-  --gray-900: #1f1e1e;
+  --spacing-scale: 2;
+  --spacing-xs: 4;
+  --spacing-sm: 8;
+  --spacing-md: 16;
+  --spacing-lg: 32;
+  --spacing-xl: 64;
+  --sizing-scale: 1.5;
+  --sizing-xs: 4;
+  --sizing-sm: 6;
+  --sizing-md: 9;
+  --sizing-lg: 13.5;
+  --sizing-xl: 20.25;
+  --border-radius-sm: 4;
+  --border-radius-lg: 8;
+  --border-radius-xl: 16;
+  --border-width-none: 0;
+  --border-width-xs: 1;
+  --border-width-sm: 2;
+  --border-width-md: 4;
+  --border-width-lg: 8;
+  --opacity-low: 10%;
+  --opacity-md: 50%;
+  --opacity-high: 90%;
+  --neutral-50: #f9fafb;
+  --neutral-100: #f3f4f6;
+  --neutral-200: #e5e7eb;
+  --neutral-300: #d1d5db;
+  --neutral-400: #9ca3af;
+  --neutral-500: #6b7280;
+  --neutral-600: #4b5563;
+  --neutral-700: #374151;
+  --neutral-800: #1f2937;
+  --neutral-900: #111827;
+  --dark-green-50: #739e9a;
+  --dark-green-100: #43867f;
+  --dark-green-200: #206c65;
+  --dark-green-300: #005e57;
+  --dark-green-400: #00564f;
+  --dark-green-500: #004e48;
+  --dark-green-600: #004641;
+  --dark-green-700: #003f3a;
+  --dark-green-800: #003934;
+  --dark-green-900: #00332f;
+  --error-100: #ffeee9;
+  --error-200: #d66556;
+  --error-300: #d3594a;
+  --error-400: #b43929;
+  --error-500: #390000;
+  --success-100: #e5f5ef;
+  --success-200: #79c6a6;
+  --success-300: #60b391;
+  --success-400: #419474;
+  --success-500: #004e48;
+  --warning-100: #fff3da;
+  --warning-200: #f5be52;
+  --warning-300: #f4ae3d;
+  --warning-400: #d49633;
+  --warning-500: #6e5404;
+  --black-100: #0e0e0e;
+  --white-100: #ffffff;
+  --isbre-100: #f4f7f7;
+  --isbre-200: #e6ecec;
+  --isbre-300: #ccd7d8;
 }
