@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "build": "npx token-transformer figma.json tokens/output.json global && npx style-dictionary build"
+    "build": "npx token-transformer figma.json tokens/output.json global && npx style-dictionary build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "token-transformer": "^0.0.27"
   },
   "devDependencies": {
-    "style-dictionary": "^3.7.1"
+    "style-dictionary": "^3.7.1",
+    "vuepress": "^1.9.7"
   }
 }
