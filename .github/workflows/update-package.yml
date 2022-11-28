@@ -29,7 +29,7 @@ jobs:
 
             - name: 'Automated Version Bump'
               id: version-bump
-              uses: 'phips28/gh-action-bump-version@9.1.0'
+              uses: 'phips28/gh-action-bump-version@v9.1.0'
               with:
                 version-type: 'minor'
               env:
