@@ -6,8 +6,8 @@
 </template>
 <script lang="ts" setup>
 import { computed, toRefs, useSlots } from 'vue'
-import { PropType } from 'vue'
-import { BadgeType, BadgeSize } from './types'
+import type { PropType } from 'vue'
+import type { BadgeType, BadgeSize } from './types'
 import { useBadgeClasses } from './composables/useBadgeClasses'
 
 const props = defineProps({
@@ -24,6 +24,8 @@ const props = defineProps({
     default: null,
   },
 })
+
+
 
 const slots = useSlots()
 const isContentEmpty = computed(() => !slots.default)
