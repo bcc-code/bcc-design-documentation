@@ -36,6 +36,28 @@ import { Badge } from 'flowbite-vue'
 </template>
 ```
 <badge-examples-BadgeTypesExample />
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm add -D vuepress-theme-hope@next
+```
+
+@tab yarn
+
+```bash
+yarn add -D vuepress-theme-hope@next
+```
+
+@tab:active npm
+
+```bash
+npm i -D vuepress-theme-hope@next
+```
+
+:::
 ## Documentation
 
 <p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
