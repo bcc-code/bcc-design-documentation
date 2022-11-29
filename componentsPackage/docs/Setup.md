@@ -31,3 +31,39 @@ It is built on the github-pages branch so additional configuration for the githu
 In github settings => pages, you should set the pages to "deploy from the branch". Use /root as there is no docs folder.
 After the page is build from CI/CD, default Github Action is triggered and the page is deployed.
 Every change should be already inside the updated documentation. To see the changes refresh the page, because you may see the cached version of the documentation.
+
+
+
+
+::: tip
+
+Original reference: [https://flowbite.com/docs/components/badge/](https://flowbite.com/docs/components/badge/)
+
+:::
+
+::: tip
+This is a tip
+:::
+
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm add -D vuepress-theme-hope@next
+```
+
+@tab yarn
+
+```bash
+yarn add -D vuepress-theme-hope@next
+```
+
+@tab:active npm
+
+```bash
+npm i -D vuepress-theme-hope@next
+```
+
+:::
