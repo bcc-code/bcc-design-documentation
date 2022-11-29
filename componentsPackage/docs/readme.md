@@ -18,7 +18,7 @@ Alternatively, badges can also be used as standalone elements that link to a cer
 
 ## Default badge
 
-Badge
+Badge 2
 
 ```vue
 <script setup>
