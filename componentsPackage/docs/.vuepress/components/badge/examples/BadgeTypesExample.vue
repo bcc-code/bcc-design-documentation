@@ -8,7 +8,6 @@
     <Badge type="indigo">Indigo</Badge>
     <Badge type="purple">Purple</Badge>
     <Badge type="pink">Pink</Badge>
-    <div>TEST</div>
   </div>
 </template>
 <script setup>

@@ -1,7 +1,6 @@
 # BCC Design Assets
 
 <script setup>
-// import BadgeTypesExample from './components/badge/examples/BadgeSizesExample.vue'
 </script>
 
 # Vue Badge Component - Flowbite
@@ -21,10 +20,6 @@ Alternatively, badges can also be used as standalone elements that link to a cer
 
 Prop – type
 
-<OtherComponent />
-<Foo-Bar />
-<badge-examples-BadgeTypesExample />
-
 ```vue
 <script setup>
 import { Badge } from 'flowbite-vue'
@@ -40,7 +35,7 @@ import { Badge } from 'flowbite-vue'
   <Badge type="pink" />
 </template>
 ```
-
+<badge-examples-BadgeTypesExample />
 ## Documentation
 
 <p>Technical documentation and guides to facilitate the correct use of the logo of the BCC association, joint initiatives and local congregations on digital platforms (websites, applications etc.).</p>
