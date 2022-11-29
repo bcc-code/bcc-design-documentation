@@ -10,88 +10,88 @@ on:
   workflow_dispatch:
 
 jobs:
-    package:
-        permissions:
-          contents: write
-        name: 🚀 release
-        runs-on: ubuntu-latest
-        steps:
-            - name: 📚 checkout
-              uses: actions/checkout@v2.1.1
-            - name: 🟢 node
-              uses: actions/setup-node@v3
-              with:
-                  node-version: 16
-                  registry-url: https://registry.npmjs.org
-
-            - name: 'cat package.json'
-              run: cat ./componentsPackage/package.json
-
-            - name: 'Automated Version Bump'
-              id: version-bump
-              uses: 'phips28/gh-action-bump-version@v9.1.0'
-              with:
-                version-type: 'minor'
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                PACKAGEJSON_DIR: './componentsPackage'
-
-            - name: 'cat package.json'
-              run: cat ./componentsPackage/package.json
-
-            - name: 🚀 publish
-              run: |
-                npm i
-                npm run build:production && npm publish --access public
-              working-directory: componentsPackage
-              env:
-                  NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-  docs:
+  package:
+    permissions:
+      contents: write
+    name: 🚀 release
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - name: 📚 checkout
+        uses: actions/checkout@v2.1.1
+      - name: 🟢 node
+        uses: actions/setup-node@v3
         with:
-          # fetch all commits to get last updated time or other git log info
-          fetch-depth: 0
+          node-version: 16
+          registry-url: https://registry.npmjs.org
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - name: "cat package.json"
+        run: cat ./componentsPackage/package.json
+
+      - name: "Automated Version Bump"
+        id: version-bump
+        uses: "phips28/gh-action-bump-version@v9.1.0"
         with:
-          # choose node.js version to use
-          node-version: '16'
-
-      # cache node_modules
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        id: yarn-cache
-        with:
-          path: |
-            **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      # install dependencies if the cache did not hit
-      - name: Install dependencies
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run: yarn --frozen-lockfile
-        working-directory: componentsPackage
-
-      # run build script
-      - name: Build VuePress site
-        run: yarn docs:build
-        working-directory: componentsPackage
-
-      # please check out the docs of the workflow for more details
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          # deploy the default output dir of VuePress
-          build_dir: componentsPackage/docs/.vuepress/dist
-          target_branch: gh-pages
-          repo: bcc-code/bcc-design
+          version-type: "minor"
         env:
-          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGEJSON_DIR: "./componentsPackage"
+
+      - name: "cat package.json"
+        run: cat ./componentsPackage/package.json
+
+      - name: 🚀 publish
+        run: |
+          npm i
+          npm run build:production && npm publish --access public
+        working-directory: componentsPackage
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+  docs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - uses: actions/checkout@v2
+      with:
+        # fetch all commits to get last updated time or other git log info
+        fetch-depth: 0
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        # choose node.js version to use
+        node-version: "16"
+
+    # cache node_modules
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      id: yarn-cache
+      with:
+        path: |
+          **/node_modules
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    # install dependencies if the cache did not hit
+    - name: Install dependencies
+      if: steps.yarn-cache.outputs.cache-hit != 'true'
+      run: yarn --frozen-lockfile
+      working-directory: componentsPackage
+
+    # run build script
+    - name: Build VuePress site
+      run: yarn docs:build
+      working-directory: componentsPackage
+
+    # please check out the docs of the workflow for more details
+    # @see https://github.com/crazy-max/ghaction-github-pages
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        # deploy the default output dir of VuePress
+        build_dir: componentsPackage/docs/.vuepress/dist
+        target_branch: gh-pages
+        repo: bcc-code/bcc-design
+      env:
+        # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
