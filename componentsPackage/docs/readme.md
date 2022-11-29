@@ -18,8 +18,6 @@ Alternatively, badges can also be used as standalone elements that link to a cer
 
 ## Default badge
 
-Prop – type
-
 ```vue
 <script setup>
 import { Badge } from 'flowbite-vue'
