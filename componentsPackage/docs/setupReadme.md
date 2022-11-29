@@ -10,6 +10,9 @@ https://v2.vuepress.vuejs.org/guide/getting-started.html#manual-installation
 It will generate a simple site without any special stylings. It will apply the standard dark theme to the site.
 
 To apply tailwind styles you have to add configuration (config.js file inside .vuepress folder) and apply the tailwind styles inside index.scss.
+You will have to setup the tailwind for the project. It is advised to use the documentation: https://tailwindcss.com/
+Do not forget that the tailwind config should be in the package not inside documentation.
+
 In the configuration you may find following props:
 registerComponentsPlugin: Important for components usage.
 mdEnhancePlugin: Plugin for tabs in the documentation.
