@@ -40,7 +40,9 @@ jobs:
               run: cat ./componentsPackage/package.json
 
             - name: 🚀 publish
-              run: npm run build:package && npm publish --access public
+              run: |
+                npm i
+                npm run build:production && npm publish --access public
               working-directory: componentsPackage
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
