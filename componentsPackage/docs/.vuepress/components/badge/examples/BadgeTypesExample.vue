@@ -11,5 +11,5 @@
   </div>
 </template>
 <script setup>
-import { default as Badge } from './Badge/Badge.vue'
+import { Badge } from '../../../../../src/index'
 </script>

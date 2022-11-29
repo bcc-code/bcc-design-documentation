@@ -8,7 +8,7 @@
 import { computed, toRefs, useSlots } from 'vue'
 import type { PropType } from 'vue'
 import type { BadgeType, BadgeSize } from './types'
-import { useBadgeClasses } from '@/components/Badge/composables/useBadgeClasses'
+import { useBadgeClasses } from './composables/useBadgeClasses'
 
 const props = defineProps({
   type: {
