@@ -9,8 +9,8 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'BCC Design',
+  description: 'Package documentation',
   base: '/bcc-design/',
   plugins: [
     registerComponentsPlugin({
