@@ -5,5 +5,5 @@
   </div>
 </template>
 <script setup>
-import { Badge } from './Badge/Badge.vue'
+import { Badge } from '../../../../../src/index'
 </script>
