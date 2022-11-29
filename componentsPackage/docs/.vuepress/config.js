@@ -26,6 +26,25 @@ export default defineUserConfig({
         link: '../Setup.md',
       },
     ],
+    sidebar: [
+      {
+        text: 'Home',
+        link: 'README.md',
+      },
+      {
+        text: 'Components',
+        path: '../components',
+        collapsible: true,
+        children: [
+          { text: 'Test', link: 'components/testFolder/test.md' },
+          { text: 'Badge', link: 'components/badge/badge.md' },
+        ],
+      },
+      {
+        text: 'Setup',
+        link: 'Setup.md',
+      },
+    ],
   }),
   plugins: [
     registerComponentsPlugin({
