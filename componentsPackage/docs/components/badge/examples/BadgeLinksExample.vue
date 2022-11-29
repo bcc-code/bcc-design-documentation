@@ -5,5 +5,5 @@
   </div>
 </template>
 <script setup>
-import { Badge } from '../../../../../src/index'
+import { Badge } from '../../../../src/index'
 </script>
