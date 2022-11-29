@@ -1,4 +1,4 @@
-import { defineUserConfig } from 'vuepress'
+import { defineUserConfig, defaultTheme } from 'vuepress'
 import { getDirname, path } from '@vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import tailwindcss from 'tailwindcss'
@@ -14,8 +14,7 @@ export default defineUserConfig({
   title: 'BCC Design',
   description: 'Package documentation',
   base: '/bcc-design/',
-  // hopeTheme totally changes the look of the site
-  theme: hopeTheme({
+  theme: defaultTheme({
     navbar: [
       {
         text: 'Home',
@@ -29,20 +28,20 @@ export default defineUserConfig({
     sidebar: [
       {
         text: 'Home',
-        link: 'README.md',
+        link: '/README.md',
       },
       {
         text: 'Components',
         path: '../components',
         collapsible: false,
         children: [
-          { text: 'Test', link: 'components/testFolder/test.md' },
-          { text: 'Badge', link: 'components/badge/badge.md' },
+          { text: 'Test', link: '/components/testFolder/test.md' },
+          { text: 'Badge', link: '/components/badge/badge.md' },
         ],
       },
       {
         text: 'Setup',
-        link: 'Setup.md',
+        link: '/Setup.md',
       },
     ],
   }),
