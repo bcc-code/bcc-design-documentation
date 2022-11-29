@@ -18,3 +18,10 @@ registerComponentsPlugin: Important for components usage.
 mdEnhancePlugin: Plugin for tabs in the documentation.
 bundlerConfig: Configuration specific for vite bundler. In this documentation it contains tailwind specific styles configuration.
 
+Workflow:
+There is one CI/CD: update-package-and-documentation containing the flow for building and deploying files (first part of file).
+The second part of the CI/CD (docs) updates the documentation for the page.
+It is build on the github-pages branch so additional configuration for the github pages on the github is needed:
+In github settings => pages, you should set the pages to "deploy from the branch". Use /root as there is no docs folder.
+After the page is build from CI/CD, default Github Action is triggered and the page is deployed.
+Every change should be already inside the updated documentation. To see the changes refresh the page, because you may see the cached version of the documentation. 
