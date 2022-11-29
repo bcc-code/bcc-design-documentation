@@ -5,8 +5,6 @@
 
 ## Quickstart
 
-## TEST
-
 ```bash
 https://design.bcc.no/logos/organisation-name_logo.svg
 ```
