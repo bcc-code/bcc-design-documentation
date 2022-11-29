@@ -11,6 +11,7 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Hello VuePress',
   description: 'Just playing around',
+  base: '/bcc-design/',
   plugins: [
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
