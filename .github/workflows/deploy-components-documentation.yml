@@ -7,11 +7,6 @@ on:
   # trigger deployment manually
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   docs:
     runs-on: ubuntu-latest
@@ -26,7 +21,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           # choose node.js version to use
-          node-version: "16"
+          node-version: '16'
 
       # cache node_modules
       - name: Cache dependencies
@@ -50,24 +45,17 @@ jobs:
         run: yarn docs:build
         working-directory: componentsPackage
 
-      # # please check out the docs of the workflow for more details
-      # # @see https://github.com/crazy-max/ghaction-github-pages
-      # - name: Deploy to GitHub Pages
-      #   uses: crazy-max/ghaction-github-pages@v2
-      #   with:
-      #     # deploy the default output dir of VuePress
-      #     build_dir: componentsPackage/docs/.vuepress/dist
-      #   env:
-      #     # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: docs
-    steps:
+      # please check out the docs of the workflow for more details
+      # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          # deploy the default output dir of VuePress
+          build_dir: componentsPackage/docs/.vuepress/dist
+          target_branch: gh-pages
+        env:
+          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+          
