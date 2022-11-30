@@ -1,6 +1,6 @@
 {
   "name": "@bcc-code/components",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "author": "Michał Kupczak",
   "license": "UNLINCENSED",
   "repository": {
@@ -11,13 +11,13 @@
     "dist",
     "dist_types"
   ],
-  "main": "./dist/bcc-components.umd.js",
-  "module": "./dist/bcc-components.es.js",
+  "main": "./dist/components.umd.js",
+  "module": "./dist/components.es.js",
   "typings": "./dist_types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/bcc-components.es.js",
-      "require": "./dist/bcc-components.umd.js"
+      "import": "./dist/components.es.js",
+      "require": "./dist/components.umd.js"
     }
   },
   "scripts": {
