@@ -31,3 +31,9 @@ It is built on the github-pages branch so additional configuration for the githu
 In github settings => pages, you should set the pages to "deploy from the branch". Use /root as there is no docs folder.
 After the page is build from CI/CD, default Github Action is triggered and the page is deployed.
 Every change should be already inside the updated documentation. To see the changes refresh the page, because you may see the cached version of the documentation.
+
+## Adding new pages
+
+To add a new page you have to understand the routing system in VuePress: [Routing](https://v2.vuepress.vuejs.org/guide/page.html)
+If you add a new page, you have to register it in the configuration, so it will appear on the left menu.
+You can access a page without configuring it by entering the url manually.
