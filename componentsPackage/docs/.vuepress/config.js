@@ -14,25 +14,22 @@ export default defineUserConfig({
   title: 'BCC Design',
   description: 'Package documentation',
   base: '/bcc-design/',
-  home: "../Designs.md",
   theme: defaultTheme({
     navbar: [
       {
-        text: 'Designs',
-        link: '../Designs.md',
-        activeMatch: '/Designs',
+        text: 'Home',
+        link: '/README.md',
       },
       {
         text: 'Setup',
-        link: '../Setup.md',
+        link: '/Setup.md',
         activeMatch: '/Setup',
       },
     ],
     sidebar: [
       {
-        text: 'Designs',
-        link: '/Designs.md',
-        activeMatch: '/Designs',
+        text: 'Home',
+        link: '/readme.md',
       },
       {
         text: 'Components',
