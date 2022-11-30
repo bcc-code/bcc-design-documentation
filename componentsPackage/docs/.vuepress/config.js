@@ -37,6 +37,7 @@ export default defineUserConfig({
         collapsible: false,
         children: [
           { text: 'Test', link: '/components/testFolder/test.md' },
+          { text: 'Test 2', link: '/components/testTwo/testTwo.md' },
           { text: 'Badge', link: '/components/badge/badge.md' },
         ],
       },
