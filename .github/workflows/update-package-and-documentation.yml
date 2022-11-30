@@ -45,7 +45,7 @@ jobs:
           npm run build:production && npm publish
         working-directory: componentsPackage
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
   docs:
     runs-on: ubuntu-latest
