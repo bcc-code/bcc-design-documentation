@@ -43,7 +43,7 @@ jobs:
       - name: 🚀 publish
         run: |
           npm i
-          npm run build:production && npm publish
+          npm run build:production && npm publish --access public
         working-directory: componentsPackage
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
