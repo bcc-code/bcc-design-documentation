@@ -13,11 +13,10 @@ jobs:
   package:
     permissions:
       contents: write
-    name: Components package build and release 🚀 
-    runs-on: ubuntu-latest
-    permissions:
       packages: write
       contents: read
+    name: Components package build and release 🚀 
+    runs-on: ubuntu-latest
     steps:
       - name: 📚 checkout
         uses: actions/checkout@v2.1.1
