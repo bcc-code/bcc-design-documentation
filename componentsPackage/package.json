@@ -5,7 +5,7 @@
   "license": "UNLINCENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcc-code"
+    "url": "git://github.com/bcc-code/packages.git"
   },
   "files": [
     "dist",
