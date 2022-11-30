@@ -1,10 +1,6 @@
 {
   "name": "@bcc-code/components",
-<<<<<<< HEAD
   "version": "1.1.0",
-=======
-  "version": "0.2.0",
->>>>>>> e0572b17a8595418584d1d1d7be0b63c69e8a67f
   "author": "Michał Kupczak",
   "license": "UNLINCENSED",
   "publishConfig": {
