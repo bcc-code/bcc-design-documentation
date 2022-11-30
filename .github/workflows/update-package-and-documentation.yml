@@ -14,7 +14,6 @@ jobs:
     permissions:
       contents: write
       packages: write
-      contents: read
     name: Components package build and release 🚀 
     runs-on: ubuntu-latest
     steps:
