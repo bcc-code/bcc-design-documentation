@@ -1,4 +1,28 @@
-# Setup
+# Package installation
+
+::: tip
+
+Currently the installation requires the user to use his personal github token: [Github authentication documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry#authenticating-to-github-packages)
+
+:::
+
+You will have to add a github_token to your account with permissions for reading packages. [Github Tokens documentation](https://github.com/settings/tokens)
+
+Steps:
+1. Generate new classic token
+2. Add permissions for packages read
+3. Save the token.
+4. Add .npmrc file to the root of the project.
+5. Add following lines:
+
+
+```bash
+//npm.pkg.github.com/:_authToken=***YOUR PERSONAL TOKEN***
+@bcc-code:registry=https://npm.pkg.github.com
+```
+
+After all you may finally install the package in the project.
+# Package documentation
 
 First of all if you want to setup the package you have to consider the difference between VuePress and VuePress v2.
 Please read the correct documentation: https://v2.vuepress.vuejs.org/.
