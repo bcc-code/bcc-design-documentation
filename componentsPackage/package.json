@@ -3,9 +3,6 @@
   "version": "1.1.0",
   "author": "Michał Kupczak",
   "license": "UNLINCENSED",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/bcc-code"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bcc-code"
