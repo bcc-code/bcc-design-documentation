@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://registry.npmjs.org
+          registry-url: https://npm.pkg.github.com/
 
       - name: "cat package.json"
         run: cat ./componentsPackage/package.json
@@ -42,7 +42,7 @@ jobs:
       - name: 🚀 publish
         run: |
           npm i
-          npm run build:production && npm publish --access public
+          npm run build:production && npm publish
         working-directory: componentsPackage
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
