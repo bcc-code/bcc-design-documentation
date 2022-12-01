@@ -11,8 +11,9 @@ export const bccCustomTheme = (options) => {
     // path to the client config of your theme
     clientConfigFile: path.resolve(__dirname, 'client.js'),
     extends: defaultTheme({
-      navbar: options.navbar,
-      sidebar: options.sidebar,
+      // navbar: options.navbar,
+      // sidebar: options.sidebar,
+      ...options
     }),
     // set custom dev / build template
     // if the template is not specified, the default template from `@vuepress/client` will be used

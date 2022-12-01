@@ -6,9 +6,6 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   <ParentLayout />
 </template>
 
-<style scoped>
-.theme-container {
-  /* background-color: var(--c-bg-sidebar); */
-  background-color: #004E48;
-}
+<style lang="stylus">
+@import '../styles/theme.styl';
 </style>

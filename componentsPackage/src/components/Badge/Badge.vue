@@ -1,6 +1,6 @@
 <template>
   <component :is="wrapperType" :class="badgeClasses" :href="href">
-    <slot name="icon"/>
+    <slot name="icon" />
     <slot name="default" />
   </component>
 </template>
@@ -27,7 +27,7 @@ const props = defineProps({
 
 const slots = useSlots()
 const isContentEmpty = computed(() => !slots.default)
-const wrapperType = computed(() => props.href ? 'a' : 'span')
+const wrapperType = computed(() => (props.href ? 'a' : 'span'))
 
 const { badgeClasses } = useBadgeClasses(toRefs(props), { isContentEmpty })
 </script>

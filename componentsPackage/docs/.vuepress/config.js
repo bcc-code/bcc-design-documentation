@@ -6,31 +6,8 @@ import autoprefixer from 'autoprefixer'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { createPage } from '@vuepress/core'
 import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
-// import { fooTheme } from './config2'
 
 const __dirname = getDirname(import.meta.url)
-
-// const fooTheme = (options) => {
-//   // returns a theme object
-//   return {
-//     name: 'vuepress-theme-foo',
-
-//     // path to the client config of your theme
-//     clientConfigFile: path.resolve(__dirname, 'client.js'),
-
-//     // set custom dev / build template
-//     // if the template is not specified, the default template from `@vuepress/client` will be used
-//     // templateBuild: path.resolve(__dirname, 'templates/build.html'),
-//     // templateDev: path.resolve(__dirname, 'templates/dev.html'),
-
-//     // use plugins
-//     plugins: [
-//       // ...
-//     ],
-
-//     // other plugin APIs are also available
-//   }
-// }
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -38,6 +15,7 @@ export default defineUserConfig({
   description: 'Package documentation',
   base: '/bcc-design/',
   theme: bccCustomTheme({
+    logo: 'bccLogo.png',
     navbar: [
       {
         text: 'Home',
