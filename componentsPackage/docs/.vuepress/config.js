@@ -5,7 +5,7 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { createPage } from '@vuepress/core'
-import { fooTheme } from 'vuepress-theme-bcc-common-components/config.js'
+import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
 // import { fooTheme } from './config2'
 
 const __dirname = getDirname(import.meta.url)
@@ -37,7 +37,7 @@ export default defineUserConfig({
   title: 'BCC Design',
   description: 'Package documentation',
   base: '/bcc-design/',
-  theme: fooTheme({
+  theme: bccCustomTheme({
     navbar: [
       {
         text: 'Home',

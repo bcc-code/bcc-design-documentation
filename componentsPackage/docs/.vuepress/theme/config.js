@@ -4,10 +4,10 @@ import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 
 const __dirname = getDirname(import.meta.url)
 
-export const fooTheme = (options) => {
+export const bccCustomTheme = (options) => {
   // returns a theme object
   return {
-    name: 'vuepress-theme-foo',
+    name: 'vuepress-theme-bcc-custom-theme',
 
     // path to the client config of your theme
     clientConfigFile: path.resolve(__dirname, 'client.js'),
