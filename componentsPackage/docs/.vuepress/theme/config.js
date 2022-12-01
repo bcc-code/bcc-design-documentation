@@ -1,6 +1,5 @@
 import { getDirname, path } from '@vuepress/utils'
 import { defaultTheme } from '@vuepress/theme-default'
-import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 
 const __dirname = getDirname(import.meta.url)
 
