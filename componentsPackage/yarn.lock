@@ -7004,10 +7004,10 @@
     "vue" "^3.2.45"
     "vue-router" "^4.1.6"
 
-"vuepress-theme-bcc-common-components@^1.0.27":
-  "integrity" "sha512-79dOyZam/ap6OmWiapNRwujqSYGYoQ3fZrKrBYPLQGnfYoLnOZ2NophSO0mb9n1ON4hXUFKa/fdm0ompyEgnYg=="
-  "resolved" "https://registry.npmjs.org/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.0.27.tgz"
-  "version" "1.0.27"
+"vuepress-theme-bcc-common-components@^1.0.30":
+  "integrity" "sha512-HILxF0gJhIACllDm7bip97VgZAeTYGfK92Mv61unSL6D/89K3s2bIXrmKODplb5ge+bVfmjbvrFUmlP43zq1NA=="
+  "resolved" "https://registry.npmjs.org/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.0.30.tgz"
+  "version" "1.0.30"
 
 "vuepress-theme-hope@^2.0.0-beta.130":
   "integrity" "sha512-AvWFrp97OX0+zd4Oo9y3NB1N0jgRhQVSxyYOCzhvlPUISQFXlTNy3jxAKoPVcoBHTr4bgg7uOJB3g5pX+MawsQ=="

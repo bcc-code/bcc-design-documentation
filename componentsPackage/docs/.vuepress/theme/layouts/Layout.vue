@@ -8,4 +8,5 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 
 <style lang="stylus">
 @import '../styles/theme.styl';
+@import '../styles/custom.styl';
 </style>
