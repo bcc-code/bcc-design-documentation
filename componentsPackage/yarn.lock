@@ -2329,6 +2329,11 @@
   "resolved" "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz"
   "version" "1.5.1"
 
+"bcc-design-theme@^1.0.0":
+  "integrity" "sha512-U66NuExA4X8SPol6CkCDGUBIFkAjMzeLCpyS7liq2IotR84H9HvjF0hp5CAKYejovsPmxcT/jYi9ZnaRf8WV4w=="
+  "resolved" "https://registry.npmjs.org/bcc-design-theme/-/bcc-design-theme-1.0.0.tgz"
+  "version" "1.0.0"
+
 "bcrypt-ts@^3.0.0":
   "integrity" "sha512-z4pqdPaAuuvBsHCwb77bisxT9qo5hRSbn78FXNhhTywHabqMzcIosDxjnKUrkPQbMyz2curUT+fJRith57rIvg=="
   "resolved" "https://registry.npmjs.org/bcrypt-ts/-/bcrypt-ts-3.0.0.tgz"
@@ -6799,6 +6804,11 @@
     "striptags" "3.2.0"
     "vue" "^3.2.45"
     "vue-router" "^4.1.6"
+
+"vuepress-theme-bcc-common-components@^1.0.14":
+  "integrity" "sha512-QJr0vk/qf78zMZM8hOlhzSQAHsAn1y5N6/b9kHK6pcbj/tMZ3tmFtSzZu71Mq4GCOTSJrB2GZ0MHL0+SK0OTLA=="
+  "resolved" "https://registry.npmjs.org/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.0.14.tgz"
+  "version" "1.0.14"
 
 "vuepress-theme-hope@^2.0.0-beta.130":
   "integrity" "sha512-GGkzUpClVtDJZwUR5P4/7QTe8wsimYQf9J/zqy09WTz8s1kZJN8QVwoLjhy+rwVlyW0wEthlU9BYCJP9ciMBUA=="

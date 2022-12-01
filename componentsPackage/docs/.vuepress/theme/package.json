@@ -1,0 +1,15 @@
+{
+  "name": "vuepress-theme-bcc-common-components",
+  "version": "1.0.14",
+  "description": "Custom theme for bcc components documentation",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress-plugin-md-enhance": "^1.30.0"
+  }
+}
