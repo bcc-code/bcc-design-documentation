@@ -22,10 +22,10 @@ export const bccCustomTheme = (options) => {
 
     // use plugins
     plugins: [
-      mdEnhancePlugin({
-        // adds code tabs support
-        codetabs: true,
-      }),
+      // mdEnhancePlugin({
+      //   // adds code tabs support
+      //   codetabs: true,
+      // }),
     ],
 
     // other plugin APIs are also available
