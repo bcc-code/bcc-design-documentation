@@ -9,9 +9,6 @@
   "author": "",
   "type": "module",
   "license": "ISC",
-  "dependencies": {
-    "flowbite": "^1.5.4"
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",

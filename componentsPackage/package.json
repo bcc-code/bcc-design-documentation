@@ -72,7 +72,6 @@
     "@vueuse/core": "9.3.0",
     "bcc-design-theme": "^1.0.0",
     "classnames": "2.3.2",
-    "flowbite": "^1.5.4",
     "lodash-es": "4.17.21",
     "stylus": "^0.59.0",
     "tailwindcss": "^3.2.4",
