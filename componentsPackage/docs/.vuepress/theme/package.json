@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-bcc-common-components",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "Custom theme for bcc components documentation",
   "main": "client.js",
   "scripts": {
