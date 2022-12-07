@@ -5,8 +5,6 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
-// import { bccCustomTheme } from './theme/config.js'
-
 const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
