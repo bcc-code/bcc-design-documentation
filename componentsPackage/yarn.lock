@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@adobe/css-tools@^4.0.1":
+  "integrity" "sha512-+u76oB43nOHrF4DDWRLWDCtci7f3QJoEBigemIdIeTi1ODqjx6Tad9NCVnPRwewWlKkVab5PlK8DCtPTyX7S8g=="
+  "resolved" "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz"
+  "version" "4.0.1"
+
 "@algolia/autocomplete-core@1.7.2":
   "integrity" "sha512-eclwUDC6qfApNnEfu1uWcL/rudQsn59tjEoUYZYE2JSXZrHLRjBUGMxiCoknobU2Pva8ejb0eRxpIYDtVVqdsw=="
   "resolved" "https://registry.npmjs.org/@algolia/autocomplete-core/-/autocomplete-core-1.7.2.tgz"
@@ -1098,18 +1103,6 @@
     "js-yaml" "^4.1.0"
     "minimatch" "^3.1.2"
     "strip-json-comments" "^3.1.1"
-
-"@floating-ui/core@^0.3.0":
-  "integrity" "sha512-ensKY7Ub59u16qsVIFEo2hwTCqZ/r9oZZFh51ivcLGHfUwTn8l1Xzng8RJUe91H/UP8PeqeBronAGx0qmzwk2g=="
-  "resolved" "https://registry.npmjs.org/@floating-ui/core/-/core-0.3.1.tgz"
-  "version" "0.3.1"
-
-"@floating-ui/dom@^0.1.10":
-  "integrity" "sha512-4kAVoogvQm2N0XE0G6APQJuCNuErjOfPW8Ux7DFxh8+AfugWflwVJ5LDlHOwrwut7z/30NUvdtHzQ3zSip4EzQ=="
-  "resolved" "https://registry.npmjs.org/@floating-ui/dom/-/dom-0.1.10.tgz"
-  "version" "0.1.10"
-  dependencies:
-    "@floating-ui/core" "^0.3.0"
 
 "@humanwhocodes/config-array@^0.11.6":
   "integrity" "sha512-kBbPWzN8oVMLb0hOUYXhmxggL/1cJE6ydvjDIGi9EnAGUyA7cLVKQg+d/Dsm+KZwx2czGHrCmMVLiyg8s5JPKw=="
@@ -4127,27 +4120,7 @@
   "resolved" "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz"
   "version" "3.2.7"
 
-"floating-vue@^2.0.0-beta.20":
-  "integrity" "sha512-N68otcpp6WwcYC7zP8GeJqNZVdfvS7tEY88lwmuAHeqRgnfWx1Un8enzLxROyVnBDZ3TwUoUdj5IFg+bUT7JeA=="
-  "resolved" "https://registry.npmjs.org/floating-vue/-/floating-vue-2.0.0-beta.20.tgz"
-  "version" "2.0.0-beta.20"
-  dependencies:
-    "@floating-ui/dom" "^0.1.10"
-    "vue-resize" "^2.0.0-alpha.1"
-
-"flowbite-vue@^0.0.9":
-  "integrity" "sha512-fx76McCFrjEDpW224WS1FSepKyN67cUFW95gs29uUky1yEGnJaIBG3nfRfnkVeaIlyzQA1Cg8bstuR9TBBdGgQ=="
-  "resolved" "https://registry.npmjs.org/flowbite-vue/-/flowbite-vue-0.0.9.tgz"
-  "version" "0.0.9"
-  dependencies:
-    "@vueuse/core" "9.3.0"
-    "classnames" "2.3.2"
-    "floating-vue" "^2.0.0-beta.20"
-    "flowbite" "1.5.4"
-    "lodash-es" "4.17.21"
-    "tailwindcss" "3.2.4"
-
-"flowbite@^1.5.4", "flowbite@1.5.4":
+"flowbite@^1.5.4":
   "integrity" "sha512-A4VTeJE+aHSbwrMzWvpTADhNgX8Njpb3DqRL26pFkOupklPg8cmNstZK8cXrFnBPxomOiX/OazZnhQM1BIZADQ=="
   "resolved" "https://registry.npmjs.org/flowbite/-/flowbite-1.5.4.tgz"
   "version" "1.5.4"
@@ -5973,7 +5946,7 @@
     "immutable" "^4.0.0"
     "source-map-js" ">=0.6.2 <2.0.0"
 
-"sax@^1.2.4":
+"sax@^1.2.4", "sax@~1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
   "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
   "version" "1.2.4"
@@ -6103,6 +6076,11 @@
   "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
+
+"source-map@^0.7.3":
+  "integrity" "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA=="
+  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
+  "version" "0.7.4"
 
 "source-map@^0.8.0-beta.0":
   "integrity" "sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA=="
@@ -6238,6 +6216,17 @@
   "resolved" "https://registry.npmjs.org/stylis/-/stylis-4.1.3.tgz"
   "version" "4.1.3"
 
+"stylus@*", "stylus@^0.59.0":
+  "integrity" "sha512-lQ9w/XIOH5ZHVNuNbWW8D822r+/wBSO/d6XvtyHLF7LW4KaCIDeVbvn5DF8fGCJAUCwVhVi/h6J0NUcnylUEjg=="
+  "resolved" "https://registry.npmjs.org/stylus/-/stylus-0.59.0.tgz"
+  "version" "0.59.0"
+  dependencies:
+    "@adobe/css-tools" "^4.0.1"
+    "debug" "^4.3.2"
+    "glob" "^7.1.6"
+    "sax" "~1.2.4"
+    "source-map" "^0.7.3"
+
 "supports-color@^5.3.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz"
@@ -6262,7 +6251,7 @@
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
   "version" "3.2.4"
 
-"tailwindcss@^3.2.4", "tailwindcss@3.2.4":
+"tailwindcss@^3.2.4":
   "integrity" "sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.4.tgz"
   "version" "3.2.4"
@@ -6816,11 +6805,6 @@
     "lodash" "^4.17.21"
     "semver" "^7.3.6"
 
-"vue-resize@^2.0.0-alpha.1":
-  "integrity" "sha512-7+iqOueLU7uc9NrMfrzbG8hwMqchfVfSzpVlCMeJQe4pyibqyoifDNbKTZvwxZKDvGkB+PdFeKvnGZMoEb8esg=="
-  "resolved" "https://registry.npmjs.org/vue-resize/-/vue-resize-2.0.0-alpha.1.tgz"
-  "version" "2.0.0-alpha.1"
-
 "vue-router@^4.1.3", "vue-router@^4.1.6":
   "integrity" "sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ=="
   "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.6.tgz"
@@ -6836,7 +6820,7 @@
     "@volar/shared" "0.30.0"
     "vscode-vue-languageservice" "0.30.0"
 
-"vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.1", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.25", "vue@^3.2.37", "vue@^3.2.41", "vue@^3.2.45", "vue@3.2.45":
+"vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.1", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.25", "vue@^3.2.37", "vue@^3.2.41", "vue@^3.2.45", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"
