@@ -5,6 +5,7 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
+// import { bccCustomTheme } from './theme/config.js'
 
 const __dirname = getDirname(import.meta.url)
 
@@ -57,27 +58,6 @@ export default defineUserConfig({
       codetabs: true,
     }),
   ],
-//   async onInitialized(app) {
-//     // if the homepage does not exist
-//     if (app.pages.every((page) => page.path !== '/')) {
-//       // create a homepage
-//       const homepage = await createPage(app, {
-//         path: '/',
-//         // set frontmatter
-//         frontmatter: {
-//           layout: 'Layout',
-//         },
-//         // set markdown content
-//         content: `\
-// # Welcome to ${app.options.title}
-
-// This is the default homepage
-// `,
-//       })
-//       // add it to `app.pages`
-//       app.pages.push(homepage)
-//     }
-//   },
   bundlerConfig: {
     viteOptions: {
       css: {

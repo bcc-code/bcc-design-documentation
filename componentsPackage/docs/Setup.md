@@ -1,5 +1,7 @@
 # Package installation
 
+The purpose of the package is to provide accessible tailwind components to users. 
+
 ::: tip
 
 Currently the installation requires the user to use his personal github token: [Github authentication documentation](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry#authenticating-to-github-packages)

@@ -1,5 +1,7 @@
 import { getDirname, path } from '@vuepress/utils'
 import { defaultTheme } from '@vuepress/theme-default'
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
 
 const __dirname = getDirname(import.meta.url)
 
@@ -23,11 +25,19 @@ export const bccCustomTheme = (options) => {
     // use plugins
     plugins: [
       // mdEnhancePlugin({
-      //   // adds code tabs support
+      //   adds code tabs support
       //   codetabs: true,
       // }),
     ],
-
+    bundlerConfig: {
+      viteOptions: {
+        css: {
+          postcss: {
+            plugins: [tailwindcss, autoprefixer],
+          },
+        },
+      },
+    },
     // other plugin APIs are also available
   }
 }
