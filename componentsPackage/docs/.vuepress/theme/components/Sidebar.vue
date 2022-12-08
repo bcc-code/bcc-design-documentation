@@ -1,5 +1,14 @@
 <script setup>
-// import 'flowbite'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  var scripts = ['https://unpkg.com/flowbite@1.5.4/dist/flowbite.js', 'js/local.js']
+  scripts.forEach((script) => {
+    let tag = document.createElement('script')
+    tag.setAttribute('src', script)
+    document.head.appendChild(tag)
+  })
+})
 </script>
 
 <template>
