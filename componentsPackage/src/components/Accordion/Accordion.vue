@@ -44,8 +44,17 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { computed, toRefs } from 'vue'
+import { computed, toRefs, onMounted } from 'vue'
 import type { PropType } from 'vue'
+
+onMounted(() => {
+  var scripts = ['https://unpkg.com/flowbite@1.5.4/dist/flowbite.js', 'js/local.js']
+  scripts.forEach((script) => {
+    let tag = document.createElement('script')
+    tag.setAttribute('src', script)
+    document.head.appendChild(tag)
+  })
+})
 
 const props = defineProps({
   alwaysOpen: {

@@ -12,6 +12,7 @@ export default defineUserConfig({
   title: 'BCC Design',
   description: 'Package documentation',
   base: '/bcc-design/',
+  clientConfigFile: path.resolve(__dirname, 'client.js'),
   theme: bccCustomTheme({
     logo: 'bccLogo.png',
     navbar: [

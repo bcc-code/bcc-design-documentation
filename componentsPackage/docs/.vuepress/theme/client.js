@@ -6,15 +6,4 @@ export default defineClientConfig({
   layouts: {
     Layout,
   },
-  async enhance() {
-    if (!__VUEPRESS_SSR__) {
-      await import('flowbite')
-    }
-  },
-  setup() {
-    onMounted(() => {
-      // use DOM API after mounted
-      import('flowbite')
-    })
-  }
 })
