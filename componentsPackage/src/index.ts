@@ -14,12 +14,13 @@
 // export { default as Accordion } from './components/Accordion/Accordion.vue's
 export { default as Badge } from './components/Badge/Badge.vue'
 export { default as Accordion } from './components/Accordion/Accordion.vue'
+export { default as Modal } from './components/Modal/Modal.vue'
+
 // export { default as TheCard } from './components/Card/TheCard.vue'
 // export { default as Carousel } from './components/Carousel/Carousel.vue'
 // export { default as Footer } from './components/Footer/Footer.vue'
 // export { default as ListGroup } from './components/ListGroup/ListGroup.vue'
 // export { default as ListGroupItem } from './components/ListGroup/components/ListGroupItem/ListGroupItem.vue'
-// export { default as Modal } from './components/Modal/Modal.vue'
 // export { default as Navbar } from './components/Navbar/Navbar.vue'
 // export { default as NavbarLogo } from './components/Navbar/NavbarLogo'
 // export { default as NavbarCollapse } from './components/Navbar/NavbarCollapse.vue'

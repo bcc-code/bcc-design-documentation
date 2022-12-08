@@ -1,3 +1,6 @@
+<script setup>
+// import 'flowbite'
+</script>
 
 <template>
   <aside class="fixed top-0 left-0 w-64 h-full" aria-label="Sidenav">

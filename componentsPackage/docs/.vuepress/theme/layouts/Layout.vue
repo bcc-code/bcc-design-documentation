@@ -1,12 +1,15 @@
 <script setup>
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
-import Sidebar from "../components/Sidebar.vue"
+// import Sidebar from '../components/Sidebar.vue'
+// import { ClientOnly } from '@vuepress/client'
 </script>
 <template>
   <ParentLayout>
-    <template #sidebar>
-      <Sidebar />
-    </template>
+    <!-- <template #sidebar>
+      <ClientOnly>
+        <Sidebar />
+      </ClientOnly>
+    </template> -->
   </ParentLayout>
 </template>
 
