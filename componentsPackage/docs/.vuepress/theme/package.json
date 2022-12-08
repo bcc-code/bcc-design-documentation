@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-bcc-common-components",
-  "version": "1.0.90",
+  "version": "1.0.100",
   "description": "Custom theme for bcc components documentation",
   "main": "client.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "type": "module",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-theme-data": "^2.0.0-beta.53",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"

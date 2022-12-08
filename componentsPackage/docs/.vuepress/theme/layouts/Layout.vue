@@ -1,6 +1,10 @@
 <script setup>
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 import Sidebar from '../components/Sidebar.vue'
+import { useThemeData } from '@vuepress/plugin-theme-data/client'
+
+const themeData = useThemeData()
+console.log(themeData.value)
 </script>
 <template>
   <ParentLayout>

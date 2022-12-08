@@ -1373,7 +1373,7 @@
 
 "@popperjs/core@^2.9.3":
   version "2.11.6"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
 "@rollup/plugin-babel@^5.2.0":
@@ -2063,7 +2063,7 @@
     "@vuepress/utils" "2.0.0-beta.50-pre.1"
     chokidar "^3.5.3"
 
-"@vuepress/plugin-theme-data@2.0.0-beta.53":
+"@vuepress/plugin-theme-data@2.0.0-beta.53", "@vuepress/plugin-theme-data@^2.0.0-beta.53":
   version "2.0.0-beta.53"
   resolved "https://registry.npmjs.org/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.53.tgz"
   integrity sha512-fTOWrsO+ql2ZcN1UtF7Xc6+J/XfOAL+4+0Tq6fSky4Gv1HdC2Euey+r+RYgYkTdogdbL2VaUp3s+jhcow5WWAg==
@@ -4213,7 +4213,7 @@ flatted@^3.1.0:
 
 flowbite@^1.5.4:
   version "1.5.4"
-  resolved "https://registry.yarnpkg.com/flowbite/-/flowbite-1.5.4.tgz#fafea28f7722cecc9aae2ca81b81cb51b3bc123b"
+  resolved "https://registry.npmjs.org/flowbite/-/flowbite-1.5.4.tgz"
   integrity sha512-A4VTeJE+aHSbwrMzWvpTADhNgX8Njpb3DqRL26pFkOupklPg8cmNstZK8cXrFnBPxomOiX/OazZnhQM1BIZADQ==
   dependencies:
     "@popperjs/core" "^2.9.3"
@@ -5267,7 +5267,7 @@ mimic-fn@^4.0.0:
 
 mini-svg-data-uri@^1.4.3:
   version "1.4.4"
-  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  resolved "https://registry.npmjs.org/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz"
   integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
 minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
@@ -7100,10 +7100,10 @@ vuepress-shared@2.0.0-beta.134:
     vue "^3.2.45"
     vue-router "^4.1.6"
 
-vuepress-theme-bcc-common-components@^1.0.90:
-  version "1.0.90"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.0.90.tgz#25e658428618dacecbba66e12d251eb21a1a1eda"
-  integrity sha512-MOs6AJiFncknRCZbspukCULdqKBuL6EejAD4S2jQ3GJCHsnYwMR5qINUIGr8qcJwsLSraIsE50ZuRiVuCLLMAw==
+vuepress-theme-bcc-common-components@^1.0.100:
+  version "1.0.100"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.0.100.tgz#0de22c27c52d5098227bbfd89d3add57d9fa2a05"
+  integrity sha512-ya6gR4MR6ed7AZYVAj5bzDF6Rvu6TAZ/4y8FXLaJ5dBemLD3LTbdV+Gf2k7MOpTUtKVVso7J+LYPWyU29HtPcw==
   dependencies:
     flowbite "^1.5.4"
 
@@ -7151,7 +7151,7 @@ vuepress-theme-hope@^2.0.0-beta.130:
 
 vuepress-vite@2.0.0-beta.53:
   version "2.0.0-beta.53"
-  resolved "https://registry.yarnpkg.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.53.tgz#6724d5edd99df2d494a8145206192e4cc88e9b9a"
+  resolved "https://registry.npmjs.org/vuepress-vite/-/vuepress-vite-2.0.0-beta.53.tgz"
   integrity sha512-kITVMM+LcV5mDQXQXAKgK0adAGMm7oyPls6HPTLM9gUvpSs2A19zfwf8zFoxIF9X+ANay4Tg87egtnJOcp8Wcg==
   dependencies:
     "@vuepress/bundler-vite" "2.0.0-beta.53"
