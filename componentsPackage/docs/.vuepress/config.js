@@ -6,7 +6,7 @@ import autoprefixer from 'autoprefixer'
 import { themeDataPlugin } from '@vuepress/plugin-theme-data'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
-import glob from "glob";
+import glob from 'glob'
 
 const __dirname = getDirname(import.meta.url)
 
@@ -71,7 +71,7 @@ const findAllItemChildren = (item, array, fullPath) => {
   }
 }
 
-const getSideBarItems = () => {
+export const getSideBarItems = () => {
   const filesPaths = glob.sync(`${__dirname}/../**/*.md`)
   //Get path name from the docs folder
   var paths = filesPaths.map((file) => {
@@ -108,39 +108,43 @@ export default defineUserConfig({
   base: '/bcc-design/',
   clientConfigFile: path.resolve(__dirname, 'client.js'),
   theme: bccCustomTheme({
-    logo: 'bccLogo.png',
-    navbar: [
-      {
-        text: 'Home',
-        link: '/README.md',
-      },
-      {
-        text: 'Setup',
-        link: '/Setup.md',
-        activeMatch: '/Setup',
-      },
-    ],
-    sidebar: [
-      {
-        text: 'Home',
-        link: '/readme.md',
-      },
-      {
-        text: 'Components',
-        path: '../components',
-        collapsible: false,
-        children: [
-          { text: 'Test', link: '/components/testFolder/test.md' },
-          { text: 'Test 2', link: '/components/testTwo/testTwo.md' },
-          { text: 'Badge', link: '/components/badge/badge.md' },
-        ],
-      },
-      {
-        text: 'Setup',
-        link: '/Setup.md',
-        activeMatch: '/Setup',
-      },
-    ],
+    logoDark: 'bccLogoWhite.png',
+    logo: 'bccLogoDark.png',
+    colorMode: 'dark',
+    colorModeSwitch: true,
+    sidebar: getSideBarItems(),
+    // navbar: [
+    //   {
+    //     text: 'Home',
+    //     link: '/README.md',
+    //   },
+    //   {
+    //     text: 'Setup',
+    //     link: '/Setup.md',
+    //     activeMatch: '/Setup',
+    //   },
+    // ],
+    // sidebar: [
+    //   {
+    //     text: 'Home',
+    //     link: '/readme.md',
+    //   },
+    //   {
+    //     text: 'Components',
+    //     path: '../components',
+    //     collapsible: false,
+    //     children: [
+    //       { text: 'Test', link: '/components/testFolder/test.md' },
+    //       { text: 'Test 2', link: '/components/testTwo/testTwo.md' },
+    //       { text: 'Badge', link: '/components/badge/badge.md' },
+    //     ],
+    //   },
+    //   {
+    //     text: 'Setup',
+    //     link: '/Setup.md',
+    //     activeMatch: '/Setup',
+    //   },
+    // ],
   }),
   plugins: [
     registerComponentsPlugin({
@@ -150,9 +154,10 @@ export default defineUserConfig({
       // adds code tabs support
       codetabs: true,
     }),
-    themeDataPlugin({
-      themeData: getSideBarItems(),
-    }),
+    // themeDataPlugin({
+    //   themeData: {},
+    //   // themeData: JSON.stringify(getSideBarItems()),
+    // }),
   ],
   bundlerConfig: {
     viteOptions: {

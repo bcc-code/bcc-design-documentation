@@ -295,19 +295,6 @@
     "markdown-it-anchor" "^8.6.5"
     "markdown-it-emoji" "^2.0.2"
     "mdurl" "^1.0.1"
-
-"@vuepress/plugin-theme-data@^2.0.0-beta.53":
-  "integrity" "sha512-fTOWrsO+ql2ZcN1UtF7Xc6+J/XfOAL+4+0Tq6fSky4Gv1HdC2Euey+r+RYgYkTdogdbL2VaUp3s+jhcow5WWAg=="
-  "resolved" "https://registry.npmjs.org/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.53.tgz"
-  "version" "2.0.0-beta.53"
-  dependencies:
-    "@vue/devtools-api" "^6.4.5"
-    "@vuepress/client" "2.0.0-beta.53"
-    "@vuepress/core" "2.0.0-beta.53"
-    "@vuepress/shared" "2.0.0-beta.53"
-    "@vuepress/utils" "2.0.0-beta.53"
-    "vue" "^3.2.41"
-
 "@vuepress/shared@2.0.0-beta.53":
   "integrity" "sha512-B0qWorGxC3ruSHdZcJW24XtEDEU3L3uPr0xzTeKVfHjOM4b9hN83YzBtW4n/WPnmk1RXVE9266Ulh9ZL5okGOw=="
   "resolved" "https://registry.npmjs.org/@vuepress/shared/-/shared-2.0.0-beta.53.tgz"
