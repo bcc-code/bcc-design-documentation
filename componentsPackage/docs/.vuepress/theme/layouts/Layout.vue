@@ -12,7 +12,7 @@ console.log(rawObjectOrArray)
   <ParentLayout>
     <template #sidebar>
       <ClientOnly>
-        <Sidebar />
+        <Sidebar :routes="rawObjectOrArray" />
       </ClientOnly>
     </template>
   </ParentLayout>

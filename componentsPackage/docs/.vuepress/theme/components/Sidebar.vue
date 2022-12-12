@@ -1,3 +1,10 @@
+<script setup>
+import SidebarRoute from './SidebarRoute.vue'
+
+const props = defineProps(['routes'])
+console.log('routes: ', props.routes)
+</script>
+
 <template>
   <aside class="fixed top-0 left-0 w-64 h-full" aria-label="Sidenav">
     <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
@@ -42,6 +49,9 @@
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
             </svg>
           </button>
+          <SidebarRoute v-for="item in props.routes" :key="item.text" :route="item">
+            {{ item.text }}
+          </SidebarRoute>
           <ul id="dropdown-pages" class="hidden py-2 space-y-2">
             <li>
               <a

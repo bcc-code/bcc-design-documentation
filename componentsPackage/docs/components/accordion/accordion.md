@@ -1,6 +1,3 @@
-<!-- <script setup>
-import AccordionExample from './examples/AccordionExample.vue'
-</script> -->
 # Vue Accordion Component - Flowbite
 
 ```vue
@@ -13,5 +10,3 @@ import { Accordion } from 'flowbite-vue'
 ```
 
 <accordion-examples-AccordionExample />
-
-<!-- <AccordionExample /> -->

@@ -1,6 +1,6 @@
 # Package installation
 
-The purpose of the package is to provide accessible tailwind components to users. 
+The purpose of the package is to provide accessible tailwind components to users.
 
 ::: tip
 
@@ -11,12 +11,12 @@ Currently the installation requires the user to use his personal github token: [
 You will have to add a github_token to your account with permissions for reading packages. [Github Tokens documentation](https://github.com/settings/tokens)
 
 Steps:
+
 1. Generate new classic token
 2. Add permissions for packages read
 3. Save the token.
 4. Add .npmrc file to the root of the project.
 5. Add following lines:
-
 
 ```bash
 //npm.pkg.github.com/:_authToken=***YOUR PERSONAL TOKEN***
@@ -24,6 +24,7 @@ Steps:
 ```
 
 After all you may finally install the package in the project.
+
 # Package documentation
 
 First of all if you want to setup the package you have to consider the difference between VuePress and VuePress v2.
@@ -63,3 +64,11 @@ Every change should be already inside the updated documentation. To see the chan
 To add a new page you have to understand the routing system in VuePress: [Routing](https://v2.vuepress.vuejs.org/guide/page.html)
 If you add a new page, you have to register it in the configuration, so it will appear on the left menu.
 You can access a page without configuring it by entering the url manually.
+
+## Usage
+
+::: tip
+
+PLEASE DO NOT LEAVE FOLDER WITHOUT MD FILE BECAUSE THE LOGIC WILL CRASH
+
+:::

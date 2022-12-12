@@ -3,7 +3,6 @@ import { getDirname, path } from '@vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
-import { themeDataPlugin } from '@vuepress/plugin-theme-data'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { bccCustomTheme } from 'vuepress-theme-bcc-common-components/config.js'
 import glob from 'glob'
@@ -30,10 +29,10 @@ const findAllItemChildren = (item, array, fullPath) => {
 
       //If item name is index.md then add it to the parent folder
       const children = findAllItemChildren(joinedNames, array, fullPath)
+      // console.log('HELLO?', joinedNames)
       if (joinedNames === 'index.md') {
         return array.push({
           text: item.split('/')[0],
-          collapsible: true,
           link: `/${fullPath}`,
           children: children ? [children] : [],
         })
@@ -41,7 +40,6 @@ const findAllItemChildren = (item, array, fullPath) => {
 
       return array.push({
         text: item.split('/')[0],
-        collapsible: true,
         children: children ? [children] : [],
       })
     }
@@ -85,6 +83,8 @@ export const getSideBarItems = () => {
 
   const sideBarItems = []
 
+  console.log(`paths`, paths)
+
   paths.map((item) => {
     if (item.split('/').length >= 2) {
       findAllItemChildren(item, sideBarItems, item)
@@ -98,6 +98,8 @@ export const getSideBarItems = () => {
       }
     }
   })
+  console.log(`sideBarItems`, sideBarItems)
+
   return sideBarItems.filter((item) => item)
 }
 
@@ -113,38 +115,6 @@ export default defineUserConfig({
     colorMode: 'dark',
     colorModeSwitch: true,
     sidebar: getSideBarItems(),
-    // navbar: [
-    //   {
-    //     text: 'Home',
-    //     link: '/README.md',
-    //   },
-    //   {
-    //     text: 'Setup',
-    //     link: '/Setup.md',
-    //     activeMatch: '/Setup',
-    //   },
-    // ],
-    // sidebar: [
-    //   {
-    //     text: 'Home',
-    //     link: '/readme.md',
-    //   },
-    //   {
-    //     text: 'Components',
-    //     path: '../components',
-    //     collapsible: false,
-    //     children: [
-    //       { text: 'Test', link: '/components/testFolder/test.md' },
-    //       { text: 'Test 2', link: '/components/testTwo/testTwo.md' },
-    //       { text: 'Badge', link: '/components/badge/badge.md' },
-    //     ],
-    //   },
-    //   {
-    //     text: 'Setup',
-    //     link: '/Setup.md',
-    //     activeMatch: '/Setup',
-    //   },
-    // ],
   }),
   plugins: [
     registerComponentsPlugin({
@@ -154,10 +124,6 @@ export default defineUserConfig({
       // adds code tabs support
       codetabs: true,
     }),
-    // themeDataPlugin({
-    //   themeData: {},
-    //   // themeData: JSON.stringify(getSideBarItems()),
-    // }),
   ],
   bundlerConfig: {
     viteOptions: {
