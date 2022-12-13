@@ -6,7 +6,7 @@ console.log('routes: ', props.routes)
 </script>
 
 <template>
-  <aside class="fixed top-0 left-0 w-64 h-full" aria-label="Sidenav">
+  <aside class="fixed top-0 left-0 w-64 h-full mt-14" aria-label="Sidenav">
     <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
       <ul class="space-y-2">
         <SidebarRoute v-for="item in props.routes" :key="item.text" :route="item">

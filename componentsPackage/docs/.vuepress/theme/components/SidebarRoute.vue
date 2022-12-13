@@ -36,7 +36,7 @@ const uppercaseFirstLetter = (text: string) => {
 </script>
 
 <template>
-  <div :style="{ marginBottom: props.smallMargin ? '1rem' : '2rem', cursor: props.route.link ? 'pointer' : 'auto' }" class="item-wrapper">
+  <div>
     <button
       type="button"
       class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
@@ -69,31 +69,3 @@ const uppercaseFirstLetter = (text: string) => {
     </div>
   </div>
 </template>
-
-<style scoped>
-.item-wrapper {
-  margin: 10px;
-}
-.item {
-  display: flex;
-  height: 32px;
-  padding: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
-  flex: 1;
-  margin-left: 1rem;
-  justify-content: space-between;
-  display: flex;
-}
-
-i {
-  display: flex;
-  place-items: center;
-  place-content: center;
-  color: var(--color-text);
-}
-</style>
