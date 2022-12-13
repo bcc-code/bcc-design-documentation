@@ -67,14 +67,7 @@ You can access a page without configuring it by entering the url manually.
 
 ## Usage
 
-Naming convention in critical. Please reserve the word index for the folder name. Any other name will be generated as a page.
-At the moment it is not reccommended to use folders without at least one md file. 
-
-::: tip
-
-PLEASE DO NOT LEAVE FOLDER WITHOUT MD FILE BECAUSE THE LOGIC WILL CRASH
-
-:::
+Naming convention in critical. Please reserve the word index for the folder name. Any other name will be generated as a nested page.
 
 ## Navigation icons
 You are able to add a new navigation icon to the specific readme file (route) you are willing to.

@@ -16,20 +16,33 @@ const findAllItemChildren = (item, array, fullPath) => {
     const foundElement = array.findIndex((item) => item && item.text === firstItemName)
 
     //Differentiate if item contains nested children
-    if (item.split('/').length > 2 && array[foundElement] && item) {
-      const itemWithoutFolderName = item.split('/').slice(1).join('/')
-      return findAllItemChildren(itemWithoutFolderName, array[foundElement].children, fullPath)
+    if (item.split('/').length > 2 && item) {
+      //Is not a first element in array and array is not empty
+      if (array[foundElement]) {
+        const itemWithoutFolderName = item.split('/').slice(1).join('/')
+        return findAllItemChildren(itemWithoutFolderName, array[foundElement].children, fullPath)
+      } else {
+        // Elimanates empty folder (without md file) bug.
+        array.push({
+          text: item.split('/')[0],
+          children: [],
+        })
+        const lastElement = array[array.length - 1]
+        const splittedNames = item.split('/')
+        splittedNames.shift()
+        const joinedNames = splittedNames.join('/')
+        return findAllItemChildren(joinedNames, lastElement.children, fullPath)
+      }
     }
 
     // Create nested object first layer
-    if (array && array.findIndex((item) => item && item.text === firstItemName) === -1) {
+    if (array && foundElement === -1) {
       const splittedNames = item.split('/')
       splittedNames.shift()
       const joinedNames = splittedNames.join('/')
 
       //If item name is index.md then add it to the parent folder
       const children = findAllItemChildren(joinedNames, array, fullPath)
-      // console.log('HELLO?', joinedNames)
       if (joinedNames === 'index.md') {
         return array.push({
           text: item.split('/')[0],
@@ -37,7 +50,6 @@ const findAllItemChildren = (item, array, fullPath) => {
           children: children ? [children] : [],
         })
       }
-
       return array.push({
         text: item.split('/')[0],
         children: children ? [children] : [],
@@ -76,17 +88,7 @@ const findPathIcon = () => {
     return path.relative(`${__dirname}/public`, file)
   })
 
-  console.log(paths)
-
   return paths
-  // console.log('all routes', filesPaths, allRoutes)
-  // // Find path with the same name as the fileBaseName
-  // const foundPath = allRoutes.find((item) => {
-  //   console.log(filesPaths, item.text)
-  //   return filesPaths.includes(item.text)
-  // })
-
-  // console.log(`foundPath`, foundPath)
 }
 
 export const getSideBarItems = () => {
@@ -103,8 +105,7 @@ export const getSideBarItems = () => {
 
   const sideBarItems = []
 
-  // console.log(`paths`, paths)
-
+  console.log('PATHS', paths)
   paths.map((item) => {
     if (item.split('/').length >= 2) {
       findAllItemChildren(item, sideBarItems, item)
@@ -120,18 +121,6 @@ export const getSideBarItems = () => {
   })
 
   return sideBarItems.filter((item) => item)
-}
-
-const flattenAllItem = (item, newArray) => {
-  console.log('item', item)
-  if (item.children) {
-    newArray.push(item)
-    item.children.map((item) => {
-      return flattenAllItem(item, newArray)
-    })
-  } else {
-    newArray.push(item)
-  }
 }
 
 export default defineUserConfig({
