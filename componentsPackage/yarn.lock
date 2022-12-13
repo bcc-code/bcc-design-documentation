@@ -7229,10 +7229,10 @@ vuepress-shared@2.0.0-beta.141:
     vue "^3.2.45"
     vue-router "^4.1.6"
 
-vuepress-theme-bcc-common-components@^1.1.17:
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.1.17.tgz#5b129f80c4f3199fa0f03a1cdfbb8df03b6ad812"
-  integrity sha512-ik5Z+zZdiWXhe+JmiyJ9fx701FdL2hM630MBIwUPfKY5kUWouqwB8avVgIwQEtKFz4fT8IEPOK/I7DeA8MyCxA==
+vuepress-theme-bcc-common-components@^1.1.25:
+  version "1.1.25"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-bcc-common-components/-/vuepress-theme-bcc-common-components-1.1.25.tgz#5b56d382a0295128e9cb6d2ace88bc4c570d9e08"
+  integrity sha512-unhHmdL3+0tNSnO5YrhrMM1Nql7Eq8m+5e7CuEyRvGoJ1dpHaIWS+CM8I3vV46dQijrlbbEQ7uo3Sl1J8F6zow==
   dependencies:
     flowbite "^1.5.4"
 
