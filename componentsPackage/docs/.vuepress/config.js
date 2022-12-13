@@ -69,6 +69,26 @@ const findAllItemChildren = (item, array, fullPath) => {
   }
 }
 
+const findPathIcon = () => {
+  const filesPaths = glob.sync(`${__dirname}/public/**/*.svg`)
+  //Get path name from the docs folder
+  var paths = filesPaths.map((file) => {
+    return path.relative(`${__dirname}/public`, file)
+  })
+
+  console.log(paths)
+
+  return paths
+  // console.log('all routes', filesPaths, allRoutes)
+  // // Find path with the same name as the fileBaseName
+  // const foundPath = allRoutes.find((item) => {
+  //   console.log(filesPaths, item.text)
+  //   return filesPaths.includes(item.text)
+  // })
+
+  // console.log(`foundPath`, foundPath)
+}
+
 export const getSideBarItems = () => {
   const filesPaths = glob.sync(`${__dirname}/../**/*.md`)
   //Get path name from the docs folder
@@ -83,7 +103,7 @@ export const getSideBarItems = () => {
 
   const sideBarItems = []
 
-  console.log(`paths`, paths)
+  // console.log(`paths`, paths)
 
   paths.map((item) => {
     if (item.split('/').length >= 2) {
@@ -98,9 +118,20 @@ export const getSideBarItems = () => {
       }
     }
   })
-  console.log(`sideBarItems`, sideBarItems)
 
   return sideBarItems.filter((item) => item)
+}
+
+const flattenAllItem = (item, newArray) => {
+  console.log('item', item)
+  if (item.children) {
+    newArray.push(item)
+    item.children.map((item) => {
+      return flattenAllItem(item, newArray)
+    })
+  } else {
+    newArray.push(item)
+  }
 }
 
 export default defineUserConfig({
@@ -114,18 +145,19 @@ export default defineUserConfig({
     logo: 'bccLogoDark.png',
     colorMode: 'dark',
     colorModeSwitch: true,
+    icons: findPathIcon(),
     sidebar: getSideBarItems(),
-    repo: "bcc-code/bcc-design",
+    repo: 'bcc-code/bcc-design',
     // if your docs are in a different repo from your main project:
-    docsRepo: "bcc-code/bcc-design",
+    docsRepo: 'bcc-code/bcc-design',
     // if your docs are not at the root of the repo:
-    docsDir: "componentsPackage/docs",
+    docsDir: 'componentsPackage/docs',
     // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: "main",
+    docsBranch: 'main',
     // defaults to false, set to true to enable
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
-    editLinkText: "Edit this page on github",
+    editLinkText: 'Edit this page on github',
     prev: true,
     next: true,
   }),

@@ -6,13 +6,15 @@ import { toRaw } from 'vue'
 
 const themeData = useThemeData()
 const rawObjectOrArray = toRaw(themeData.value.sidebar)
+const icons = toRaw(themeData.value.icons)
 console.log(rawObjectOrArray)
+console.log(icons)
 </script>
 <template>
   <ParentLayout>
     <template #sidebar>
-      <ClientOnly>
-        <Sidebar :routes="rawObjectOrArray" />
+      <ClientOnly>  
+        <Sidebar :routes="rawObjectOrArray" :pathIcons="icons" />
       </ClientOnly>
     </template>
   </ParentLayout>
