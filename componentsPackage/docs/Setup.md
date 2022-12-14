@@ -70,5 +70,8 @@ You can access a page without configuring it by entering the url manually.
 Naming convention in critical. Please reserve the word index for the folder name. Any other name will be generated as a nested page.
 
 ## Navigation icons
+
 You are able to add a new navigation icon to the specific readme file (route) you are willing to.
 The rule is that the file should be inside the public/routesIcons folder and the name of a file should be exactly the same as the readme file.
+
+## Theme documentation

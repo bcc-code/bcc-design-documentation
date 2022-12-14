@@ -1,3 +1,6 @@
+import { path } from '@vuepress/utils'
+import glob from 'glob'
+
 export const findPathIcons = (__dirname) => {
   const filesPaths = glob.sync(`${__dirname}/public/**/*.svg`)
   //Get path name from the docs folder

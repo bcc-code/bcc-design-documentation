@@ -15,7 +15,6 @@
 export { default as Badge } from './components/Badge/Badge.vue'
 export { default as Accordion } from './components/Accordion/Accordion.vue'
 export { default as Modal } from './components/Modal/Modal.vue'
-
 // export { default as TheCard } from './components/Card/TheCard.vue'
 // export { default as Carousel } from './components/Carousel/Carousel.vue'
 // export { default as Footer } from './components/Footer/Footer.vue'
