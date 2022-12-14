@@ -24,7 +24,10 @@ const isActive = computed(() => {
     if (props.route.link.includes('index')) {
       modifiedRoute = props.route.link.replace('index', '')
     }
-    return router.currentRoute.value.path.split('.')[0].includes(modifiedRoute.split('.')[0])
+    const decodedUri = decodeURI(router.currentRoute.value.path)
+    const lastDotPathIndex = decodedUri.lastIndexOf('.')
+    const routePathIndex = modifiedRoute.lastIndexOf('.')
+    return lastDotPathIndex > 0 ? decodedUri.slice(0, lastDotPathIndex) === modifiedRoute.slice(0, routePathIndex) : decodedUri === modifiedRoute.slice(0, routePathIndex)
   }
 })
 
@@ -50,7 +53,9 @@ const uppercaseFirstLetter = (text: string) => {
       class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
       @click="navigateToPage"
     >
-      <img v-if="pathIcon" :src="pathIcon" />
+      <div class="h-full w-6">
+        <img v-if="pathIcon" :src="pathIcon" />
+      </div>
       <span class="flex-1 ml-3 text-left whitespace-nowrap" :style="{ fontWeight: isActive ? 700 : 400, color: isActive ? 'var(--c-text-accent)' : 'var(--c-text)' }">{{
         uppercaseFirstLetter(props.route.text)
       }}</span>
