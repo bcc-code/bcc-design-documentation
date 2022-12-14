@@ -81,15 +81,15 @@ const findAllItemChildren = (item, array, fullPath) => {
   }
 }
 
-const findPathIcon = () => {
-  const filesPaths = glob.sync(`${__dirname}/public/**/*.svg`)
-  //Get path name from the docs folder
-  var paths = filesPaths.map((file) => {
-    return path.relative(`${__dirname}/public`, file)
-  })
+// const findPathIcon = (__dirname) => {
+//   const filesPaths = glob.sync(`${__dirname}/public/**/*.svg`)
+//   //Get path name from the docs folder
+//   var paths = filesPaths.map((file) => {
+//     return path.relative(`${__dirname}/public`, file)
+//   })
 
-  return paths
-}
+//   return paths
+// }
 
 export const getSideBarItems = () => {
   const filesPaths = glob.sync(`${__dirname}/../**/*.md`)
@@ -105,7 +105,6 @@ export const getSideBarItems = () => {
 
   const sideBarItems = []
 
-  console.log('PATHS', paths)
   paths.map((item) => {
     if (item.split('/').length >= 2) {
       findAllItemChildren(item, sideBarItems, item)
@@ -134,7 +133,7 @@ export default defineUserConfig({
     logo: 'bccLogoDark.png',
     colorMode: 'dark',
     colorModeSwitch: true,
-    icons: findPathIcon(),
+    icons: findPathIcons(__dirname),
     sidebar: getSideBarItems(),
     repo: 'bcc-code/bcc-design',
     // if your docs are in a different repo from your main project:
