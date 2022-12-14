@@ -1,12 +1,33 @@
 <script setup>
 import SidebarRoute from './SidebarRoute.vue'
-
+import { ref, onMounted } from 'vue'
 const props = defineProps(['routes', 'pathIcons'])
+const isSideMenuOpen = ref(false)
+
+onMounted(() => {
+  //Detect class toggle-sidebar-button
+  const toggleSidebarButton = document.querySelector('.toggle-sidebar-button')
+  //Create on click event on toggle-sidebar-button
+  if (toggleSidebarButton) {
+    toggleSidebarButton.addEventListener('click', (event) => {
+      event.preventDefault()
+      isSideMenuOpen.value = !isSideMenuOpen.value
+      const sidebarWrapper = document.getElementById('sidebarWrapper')
+      sidebarWrapper.classList.toggle('hidden-aside')
+      const sidebar = document.getElementById('sidebar')
+      sidebar.classList.toggle('hidden-padding')
+      toggleSidebarButton.removeEventListener('click', () => {
+        console.log('REMOVED')
+      })
+      return
+    })
+  }
+})
 </script>
 
 <template>
-  <aside class="fixed top-0 left-0 w-64 h-full mt-14" aria-label="Sidenav" >
-    <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200" id="sidebar">
+  <aside class="fixed top-0 left-0 w-64 h-full mt-16 z-20 custom-margin hidden-aside" id="sidebarWrapper" aria-label="Sidenav">
+    <div class="overflow-y-auto py-5 px-3 h-full bg-white border-r border-gray-200 hidden-padding" id="sidebar">
       <ul class="space-y-2">
         <SidebarRoute v-for="item in props.routes" :key="item.text" :route="item" :pathIcons="pathIcons">
           {{ item.text }}
@@ -199,3 +220,18 @@ const props = defineProps(['routes', 'pathIcons'])
     </div>
   </aside>
 </template>
+<style scoped>
+.custom-margin {
+  margin-top: 58px;
+}
+
+@media only screen and (max-width: 719px) {
+  .hidden-aside {
+    padding: 0px;
+    width: 0px;
+  }
+  .hidden-padding {
+    padding: 0px;
+  }
+}
+</style>
