@@ -13,7 +13,9 @@ const props = defineProps<{
 }>()
 
 const navigateToPage = () => {
-  showChildren.value = !showChildren.value
+  if (!props.route.link) {
+    showChildren.value = !showChildren.value
+  }
   if (props.route.link) {
     router.push({ path: props.route.link })
   }
@@ -21,8 +23,17 @@ const navigateToPage = () => {
 
 //Check if actual url includes props.route.link
 const isActive = computed(() => {
+  if ((!props.route.link || props.route.link.includes('index')) && router.currentRoute.value.path.includes(props.route.text)) {
+    const decodedUri = decodeURI(router.currentRoute.value.path)
+    const splittedItems = decodedUri.split('/')
+    const foundItem = splittedItems.find((item) => item === props.route.text)
+    if (foundItem) {
+      showChildren.value = true
+      return true
+    }
+  }
+
   if (props.route.link && router.currentRoute.value.path) {
-    //Remove index substring from link
     let modifiedRoute = props.route.link
     if (props.route.link.includes('index')) {
       modifiedRoute = props.route.link.replace('index', '')
@@ -30,8 +41,13 @@ const isActive = computed(() => {
     const decodedUri = decodeURI(router.currentRoute.value.path)
     const lastDotPathIndex = decodedUri.lastIndexOf('.')
     const routePathIndex = modifiedRoute.lastIndexOf('.')
-    return lastDotPathIndex > 0 ? decodedUri.slice(0, lastDotPathIndex) === modifiedRoute.slice(0, routePathIndex) : decodedUri === modifiedRoute.slice(0, routePathIndex)
+    const result = lastDotPathIndex > 0 ? decodedUri.slice(0, lastDotPathIndex).includes(modifiedRoute.slice(0, routePathIndex)) : decodedUri.includes(modifiedRoute.slice(0, routePathIndex))
+    if (result) {
+      showChildren.value = result
+    }
+    return result
   }
+  return false
 })
 
 const pathIcon = computed(() => {

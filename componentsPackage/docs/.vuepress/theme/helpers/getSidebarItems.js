@@ -101,5 +101,15 @@ export const getSideBarItems = (__dirname) => {
     }
   })
 
-  return sideBarItems.filter((item) => item)
+  const sortedItems = sideBarItems.sort((a, b) => {
+    if (a.text < b.text) {
+      return -1
+    }
+    if (a.text > b.text) {
+      return 1
+    }
+    return 0
+  })
+
+  return sortedItems.filter((item) => item)
 }
