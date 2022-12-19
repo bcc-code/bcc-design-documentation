@@ -5,7 +5,7 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
-      globalColors: {
+      colors: {
         neutral: {
           50: "#f9fafb",
           100: "#f3f4f6",
