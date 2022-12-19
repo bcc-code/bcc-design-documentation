@@ -18,3 +18,6 @@ To finish the flow we should update the tokens in a way that the colors object w
 There may be other object naming problems with other objects - to fix those update tokens in a way that they match the tailwind supported naming convention from the source: https://night-tailwindcss.vercel.app/docs/theme
 
 Items that will be not recognised and require renaming: "sizing".
+
+## Automatization
+I have not recognised the topic yet, but in my opinion adding a script :  "yarn build:tailwind" to the CI/CD to the package build process will automatically transform the given tokens values.
