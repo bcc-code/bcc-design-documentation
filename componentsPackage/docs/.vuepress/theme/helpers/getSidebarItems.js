@@ -3,9 +3,9 @@ import glob from 'glob'
 
 export const findAllItemChildren = (item, array, fullPath) => {
   if (item.split('/').length >= 2) {
-    const firstItemName = item.split('/')[0]
+    const firstItemName = item.split('/')[0].replace(/-/g, ' ')
 
-    const foundElement = array.findIndex((item) => item && item.text === firstItemName)
+    const foundElement = array.findIndex((item) => item && item.text.replace(/-/g, ' ') === firstItemName)
 
     //Differentiate if item contains nested children
     if (item.split('/').length > 2 && item) {
@@ -15,8 +15,9 @@ export const findAllItemChildren = (item, array, fullPath) => {
         return findAllItemChildren(itemWithoutFolderName, array[foundElement].children, fullPath)
       } else {
         // Elimanates empty folder (without md file) bug.
+        // Replace all - with space
         array.push({
-          text: item.split('/')[0],
+          text: item.split('/')[0].replace(/-/g, ' '),
           children: [],
         })
         const lastElement = array[array.length - 1]
@@ -37,13 +38,13 @@ export const findAllItemChildren = (item, array, fullPath) => {
       const children = findAllItemChildren(joinedNames, array, fullPath)
       if (joinedNames === 'index.md') {
         return array.push({
-          text: item.split('/')[0],
+          text: item.split('/')[0].replace(/-/g, ' '),
           link: `/${fullPath}`,
           children: children ? [children] : [],
         })
       }
       return array.push({
-        text: item.split('/')[0],
+        text: item.split('/')[0].replace(/-/g, ' '),
         children: children ? [children] : [],
       })
     }
@@ -55,7 +56,7 @@ export const findAllItemChildren = (item, array, fullPath) => {
 
     // Push item to its children
     return array[foundElement].children.push({
-      text: path.basename(item, '.md'),
+      text: path.basename(item, '.md').replace(/-/g, ' '),
       link: `/${fullPath}`,
       activeMatch: `^/${path.basename(item, '.md')}`,
     })
@@ -67,7 +68,7 @@ export const findAllItemChildren = (item, array, fullPath) => {
 
   //It is a children last element
   return {
-    text: path.basename(item, '.md'),
+    text: path.basename(item, '.md').replace(/-/g, ' '),
     link: `/${fullPath}`,
     activeMatch: `^/${path.basename(item, '.md')}`,
   }
@@ -93,7 +94,7 @@ export const getSideBarItems = (__dirname) => {
     } else {
       if (item !== 'README.md') {
         sideBarItems.push({
-          text: path.basename(item, '.md'),
+          text: path.basename(item, '.md').replace(/-/g, ' '),
           link: `/${item}`,
           activeMatch: `^/${path.basename(item, '.md')}`,
         })
