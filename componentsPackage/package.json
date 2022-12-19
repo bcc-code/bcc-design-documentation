@@ -23,7 +23,9 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "style-dictionary:build": "style-dictionary build --config ./style-dictionary.config.js",
     "build": "vitepress build docs && cp -r ./docs/assets/* ./docs/.vitepress/dist/assets/",
+    "build:tailwind": "node sd.config.js",
     "build:package": "vite build",
     "build:types": "vue-tsc --declaration --emitDeclarationOnly && tsc-alias -p tsconfig.json",
     "build:production": "npm run build:types && npm run build:package",
@@ -73,6 +75,8 @@
     "bcc-design-theme": "^1.0.0",
     "classnames": "2.3.2",
     "lodash-es": "4.17.21",
+    "sd-tailwindcss-transformer": "^1.2.0",
+    "style-dictionary": "^3.7.1",
     "stylus": "^0.59.0",
     "tailwindcss": "^3.2.4",
     "vuepress-theme-bcc-common-components": "^1.3.13"
