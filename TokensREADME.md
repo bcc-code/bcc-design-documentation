@@ -15,6 +15,6 @@ There may be a problem, because it does not recognise the flowbite plugin in the
 
 ## Current state
 To finish the flow we should update the tokens in a way that the colors object wraps all the colors inside.
-There may be other object naming problems with other objects - to fix those update tokens in a way that they match the tailwind supported naming convention from the first source given in this readme.
+There may be other object naming problems with other objects - to fix those update tokens in a way that they match the tailwind supported naming convention from the source: https://night-tailwindcss.vercel.app/docs/theme
 
 Items that will be not recognised and require renaming: "sizing".
