@@ -31,6 +31,7 @@ jobs:
         run: |
           cd source
           cp -r componentsPackage/docs/* $GITHUB_WORKSPACE/docs/
+          mkdir $GITHUB_WORKSPACE/src
           cp -r componentsPackage/src/* $GITHUB_WORKSPACE/src/
           # cp -r public/* $GITHUB_WORKSPACE/docs/.vuepress/public/
           ls
