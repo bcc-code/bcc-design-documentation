@@ -3,9 +3,17 @@ name: Build and Deploy VuePress Site
 on: [push, workflow_dispatch]
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
+    
+      - name: Dump github context
+        run:   echo "$GITHUB_CONTEXT"
+        shell: bash
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+    
       # Check out the repository
       - name: Check out repository
         uses: actions/checkout@v2
