@@ -44,7 +44,8 @@ jobs:
         run: |
           cd source
           cp -r ./* $GITHUB_WORKSPACE/docs/
-          cp -r public/* $GITHUB_WORKSPACE/docs/.vuepress/public/
+          # Optional: add static assets such as logos 
+          # cp -r public/* $GITHUB_WORKSPACE/docs/.vuepress/public/
           ls
 
       # Configure parameters for documentation page
