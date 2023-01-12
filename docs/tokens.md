@@ -1,3 +1,9 @@
+# Tokens
+
+::: danger
+This documentation is outdated.
+:::
+
 After the tokens have been deployed to the tokens folder, they need to be included into the package theme.
 Unfortunately, raw tokens data cannot be read by the tailwind theme naming convention right away.
 To parse the token to be an appropriate JSON file we use style-dictionary and sd-tailwindcss-transformer
