@@ -72,12 +72,4 @@ https://design.bcc.no/logos/organisation-name_logo_color_size.png
 | **Organisation**  	| **SVG**                                                  	        | **PNG - Dark green**                                                                                                                                                                                                                                                                              	                        | **PNG - White**                                                                                                                                                                                                                                                              	                          |
 |:------------------	|:---------------------------------------------------------	        |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	                            |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	                            |
 | bcc-norge       	  | [[svg]](https://design.bcc.no/logos/bcc-norge_logo.svg)           | [[32]](https://design.bcc.no/logos/bcc-norge_logo_dark-green_32.png) - [[48]](https://design.bcc.no/logos/bcc-norge_logo_dark-green_48.png) - [[64]](https://design.bcc.no/logos/bcc-norge_logo_dark-green_64.png) - [[72]](https://design.bcc.no/logos/bcc-norge_logo_dark-green_72.png)                                   | [[32]](https://design.bcc.no/logos/bcc-norge_logo_white_32.png) - [[48]](https://design.bcc.no/logos/bcc-norge_logo_white_48.png) - [[64]](https://design.bcc.no/logos/bcc-norge_logo_white_64.png) - [[72]](https://design.bcc.no/logos/bcc-norge_logo_white_72.png)                                   |
- 
 
-## Links
-
-[Full documentation](https://developer.bcc.no/bcc-design)
-
-## License
-
-[Apache License 2.0](LICENSE.md)
