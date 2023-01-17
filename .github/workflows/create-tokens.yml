@@ -1,5 +1,5 @@
 name: Create Figma Tokens
-on: [push]
+on: []
 
 jobs:
   build:
