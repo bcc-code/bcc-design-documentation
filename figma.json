@@ -268,20 +268,6 @@
             "value": "#43867f",
             "type": "color"
           }
-        },
-        "border": {
-          "static": {
-            "value": "#206c65",
-            "type": "color"
-          },
-          "hover": {
-            "value": "#005e57",
-            "type": "color"
-          },
-          "active": {
-            "value": "#43867f",
-            "type": "color"
-          }
         }
       },
       "secondary": {
