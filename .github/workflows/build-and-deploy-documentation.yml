@@ -28,7 +28,7 @@ jobs:
       - name: Build documentation site
         uses: bcc-code/bcc-documentation-base@v1
         with:
-          title: BCC Design
+          title: BCC Design System
           description: Technical documentation and guides to facilitate the correct use of design assets of BCC
         
   deploy:
