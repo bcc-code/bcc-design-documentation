@@ -1,12 +1,11 @@
-name: Release Tokens Package Dev Version
+name: Lint Tokens
 
 on:
   push:
-    branches: [main]
-
-permissions:
-  contents: read
-  packages: write
+    branches-ignore:
+      - 'main'
+    paths:
+      - tokens/**
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
@@ -20,7 +19,7 @@ env:
   CI: true
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -38,17 +37,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
-        run: npm run build
-
-      - name: Resolve version
-        id: vars
-        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
-
-      - name: 'Version based on commit: 0.0.0-dev.${{ env.sha_short }}'
-        run: npm version 0.0.0-dev.${{ env.sha_short }} --force --no-git-tag-version
-
-      - name: Publish
-        run: npm publish --tag dev
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Lint
+        run: tsc
