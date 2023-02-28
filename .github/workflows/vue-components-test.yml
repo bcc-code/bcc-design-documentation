@@ -4,10 +4,11 @@ on:
   push:
     branches-ignore:
       - 'main'
-    paths:
-      - vue-components/**
-      - .github/workflows/vue-components-**.yml
   workflow_call:
+
+defaults:
+  run:
+    working-directory: vue-components
 
 env:
   CI: true
@@ -23,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: .node-version
+          node-version-file: vue-components/.node-version
           cache: 'npm'
           registry-url: 'https://npm.pkg.github.com'
 
