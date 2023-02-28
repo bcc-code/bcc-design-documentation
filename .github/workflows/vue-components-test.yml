@@ -1,0 +1,34 @@
+name: Run Unit Tests
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+    paths:
+      - vue-components/**
+      - .github/workflows/vue-components-**.yml
+  workflow_call:
+
+env:
+  CI: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+          cache: 'npm'
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Unit Tests
+        run: npm run test:unit
