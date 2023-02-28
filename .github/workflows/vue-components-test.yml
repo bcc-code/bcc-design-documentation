@@ -26,6 +26,7 @@ jobs:
         with:
           node-version-file: vue-components/.node-version
           cache: 'npm'
+          cache-dependency-path: vue-components/package-lock.json
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Install dependencies
