@@ -33,7 +33,7 @@ module.exports = {
       plugins: [svgLoader()],
       resolve: {
         alias: {
-          "@icons": path.resolve(__dirname, "../icons"),
+          "@icons": path.resolve(__dirname, "../../icons/src"),
         },
       },
     });

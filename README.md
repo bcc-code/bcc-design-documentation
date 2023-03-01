@@ -7,7 +7,7 @@
 This repository is a monorepo, consisting of these parts:
 - [tokens](./tokens/README.md) - a package for using design system tokens.
 - [vue-components](./vue-components/README.md) - a package with Vue component implementations of the design system.
-- `icons` - an icon package with the icons used for BCC (upcoming).
+- `icons` - a package with the icons used in the design system.
 
 ## Links
 [Full documentation](https://developer.bcc.no/bcc-design)
