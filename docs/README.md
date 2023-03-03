@@ -10,4 +10,4 @@ Currently we're in the process of formalizing the design system and writing docu
 
 ## BCC Logo Assets
 
-CDN-hosted [BCC Logo assets](/bcc-design/logos.md) that can be linked directly to from BCC websites and apps.
+CDN-hosted [BCC Logo assets](logos.md) that can be linked directly to from BCC websites and apps.
