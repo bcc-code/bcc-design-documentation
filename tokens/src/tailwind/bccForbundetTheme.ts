@@ -1,7 +1,7 @@
 import defaultTheme from "tailwindcss/defaultTheme";
 import { Config } from "tailwindcss";
 
-const bccEventTheme: Partial<Config> = {
+const bccForbundetTheme: Partial<Config> = {
   theme: {
     extend: {
       fontFamily: {
@@ -118,7 +118,7 @@ const bccEventTheme: Partial<Config> = {
           800: "#763e4c",
           900: "#643742",
         },
-        rust: {
+        "muddy-waters": {
           50: "#f9f4f1",
           100: "#eedfd7",
           200: "#dbbeac",
@@ -171,4 +171,4 @@ const bccEventTheme: Partial<Config> = {
   },
 };
 
-export default bccEventTheme.theme;
+export default bccForbundetTheme.theme;
