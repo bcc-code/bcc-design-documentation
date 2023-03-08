@@ -31,12 +31,7 @@ module.exports = {
 ```
 
 ### Icons
-[![icons version](https://img.shields.io/npm/v/@bcc-code/icons-vue/latest?label=%40bcc-code%2Ficons-vue)](https://github.com/bcc-code/bcc-icons/releases)
-
-To use icons, install the icons package:
-```sh
-npm install @bcc-code/icons-vue@latest
-```
+See [Icons documentation](../icons/README.md)
 
 ### Installing unreleased version
 To run code that has been merged but not released yet, install the `dev` version which points to the latest commit on the `main` branch:
