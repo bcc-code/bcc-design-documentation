@@ -8,6 +8,10 @@
 
 [Full documentation](https://developer.bcc.no/bcc-design)
 
+## Repository structure
+- `docs` folder is deployed with the common VuePress setup to [developer.bcc.no/bcc-design](https://developer.bcc.no/bcc-design/)
+- `www` folder is used for design assets and is deployed to [design.bcc.no](https://design.bcc.no)
+
 ## License
 
 [Apache License 2.0](LICENSE)
