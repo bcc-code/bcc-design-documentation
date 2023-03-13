@@ -1,3 +1,6 @@
+---
+order: 10
+---
 # Contributing Guide
 Components are usually first implemented in Figma by a designer and can then be implemented as a Vue component by a developer. 
 
@@ -18,7 +21,16 @@ This documentation is rudimentary and needs to be expanded.
 
 Figma designs are generally based on [Flowbite](https://flowbite.com/docs/getting-started/introduction/). This means that the Flowbite markup can be used as a base, but will generally need customization both in terms of styling and additions such as accessibility. We do not use Flowbite's Vue library, but instead build our own Vue components. This gives us full control over the markup.
 
+Start by creating a new component:
+```sh
+npm run create-component ComponentName
+```
+
+Every component should be prefixed with `Bcc`, such as `BccButton`. This prevents clashes with local components and native HTML elements.
+
 ## Do's and Don'ts
+See also: [Writing Storybook stories](./writing-storybook-stories.md) and [the anatomy of a component](./component-anatomy.md)
+
 ### Follow Figma naming for props
 Props should be (if possible) be named like they are named in Figma. Usually designers will create a component in Figma that has properties as well. By keeping these as close as possible it's easier to compare different variants between design and code.
 
