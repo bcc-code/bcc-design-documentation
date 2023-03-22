@@ -12,4 +12,8 @@ Install the tokens package with npm:
 npm install @bcc-code/design-tokens@latest
 ```
 
-At the moment the tokens are only usable together with the [Vue component package](../vue-components/README.md), so be sure to check out their documentation.
+::: warning HEADS UP
+Be aware that the tokens currently are only useable in Tailwind and with the default BCC Forbundet theme. We're still iterating on this, so expect support for more platforms and themes in the future.
+:::
+
+Be sure to check out the documentation for the [Vue component package](../vue-components/README.md).
