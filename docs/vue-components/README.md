@@ -7,6 +7,8 @@ View the components with [Storybook](https://vue-components-storybook.developer.
 ### Prerequisites
 Ensure Tailwind v3 and Vue 3 are installed in your project, as the components depend on both.
 
+Be sure to read the [design system guidelines](../guidelines.md) to know how and when to use components.
+
 ### Install packages
 [![vue components version](https://img.shields.io/npm/v/@bcc-code/vue-components/latest?label=%40bcc-code%2Fvue-components)](https://github.com/bcc-code/bcc-vue-components/releases) [![design tokens version](https://img.shields.io/npm/v/@bcc-code/design-tokens/latest?label=%40bcc-code%2Fdesign-tokens)](https://github.com/bcc-code/bcc-design-tokens/releases)
 
