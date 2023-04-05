@@ -24,7 +24,7 @@ The components are styled with classes that are exported by the design tokens. Y
 Be sure to import the Vue components in your Tailwind `content` config, otherwise the utilities used by the library will not be present in your CSS output.
 :::
 
-```js{8}
+```js{2,8,10}
 // tailwind.config.cjs
 const themes = require("@bcc-code/design-tokens");
 
