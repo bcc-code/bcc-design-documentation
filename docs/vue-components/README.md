@@ -1,4 +1,4 @@
-# Introduction
+# Getting Started
 The `@bcc-code/vue-components` package is a collection of components that conform to the BCC Design System, implemented in [Vue.js](https://vuejs.org/) and styled with [Tailwind](https://tailwindcss.com).
 
 View the components with [Storybook](https://vue-components-storybook.developer.bcc.no)
@@ -18,15 +18,22 @@ npm install @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
 
 ### Import tokens in your Tailwind config
-The components are styled with classes that are exported by the design tokens. You need to import the theme you want in your `tailwind.config.js`. For example:
+The components are styled with classes that are exported by the design tokens. You need to import the theme you want in your `tailwind.config.js`.
 
-```js
+::: tip HEADS UP
+Be sure to import the Vue components in your Tailwind `content` config, otherwise the utilities used by the library will not be present in your CSS output.
+:::
+
+```js{8}
 // tailwind.config.cjs
 const themes = require("@bcc-code/design-tokens");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{vue,ts}"],
+  content: [
+    "./src/**/*.{vue,ts}",
+    "./node_modules/@bcc-code/vue-components/dist/vue-components.js",
+  ],
   theme: themes.bccForbundetTheme,
   plugins: [],
 };
