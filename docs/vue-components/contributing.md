@@ -2,24 +2,28 @@
 order: 10
 ---
 # Contributing Guide
-Components are usually first implemented in Figma by a designer and can then be implemented as a Vue component by a developer. 
+Components are usually first implemented in Figma by a designer and can then be implemented as a Vue component by a developer.
+
+## Goal of the component library
+We welcome any contributions to the component library. It might be of interest to know the goals behind this:
+
+- **Consistent branding** across BCC software products: the primary goal behind the whole design system which informs all our decisions.
+- **Reduce development time and cost** for new projects through reusable UI/UX: the primary goal behind the component library. We want to solve UI challenges so developers can focus on their business logic.
+- **Cost effective and future-proof** solution: the component library needs to be maintainable with relatively low effort.
+- **Pragmatic adoption** in existing ecosystem (Vue, Directus, Tailwind): the component library is specifically built for technologies that are broadly used in BCC IT so developers can start using it in their existing apps as well.
 
 ## Checklist
-These questions should be answered with "yes" before a component is ready to be part of this library.
+Before a component can be added to the library, answer these questions affirmatively.
 
-- Is the component **reusable**? Is the design generic enough that it can be used in other projects or should it be a local component in a certain project?
-- Are all **states** from the design implemented? Has the implementation been checked by a designer?
-- Does the **public API** of the component make sense? Are the props and slots properly named?
+- Is the component **reusable**? If you have a Vue component in a local project that is aligned with the design system, it probably should be in the component library. Make sure to check with a designer so it makes it way into the design system.
+- Are all **states** from the design implemented? Has the implementation been checked by a designer? Only states from the design should be implemented.
+- Does the **public API** of the component make sense? Are the props and slots properly named? Is this public API consistent with other components in the component library?
 - Has **accessibility** been taken into account? Does every relevant part have ARIA roles? Do images have an alt tag that is always set, and are decorative elements marked as such? How does the component look without CSS?
-- Are **keyboard shortcuts** implemented? Does the component behave like expected when navigating by keyboard?
-- Has the component been **documented**? Is there a usage example?
+- Are **keyboard shortcuts** implemented? Does the component behave like expected when navigating by keyboard? Especially pay attention to this when imitating a native HTML element such as a button as users expect it to work in a certain way.
+- Has the component been **documented**? Is there a usage example? Make sure all different states are covered by a story.
 
-## Converting from Figma
-::: warning HEADS UP
-This documentation is rudimentary and needs to be expanded.
-:::
-
-Figma designs are generally based on [Flowbite](https://flowbite.com/docs/getting-started/introduction/). This means that the Flowbite markup can be used as a base, but will generally need customization both in terms of styling and additions such as accessibility. We do not use Flowbite's Vue library, but instead build our own Vue components. This gives us full control over the markup.
+## Adding a component
+Figma designs are often based on [Flowbite](https://flowbite.com/docs/getting-started/introduction/). This means that the Flowbite markup can be used as a base, but will generally need customization both in terms of styling and additions such as accessibility. We do not use Flowbite's Vue library, but instead build our own Vue components. This gives us full control over the markup.
 
 Start by creating a new component:
 ```sh
@@ -29,7 +33,7 @@ npm run create-component ComponentName
 Every component should be prefixed with `Bcc`, such as `BccButton`. This prevents clashes with local components and native HTML elements.
 
 ## Do's and Don'ts
-See also: [Writing Storybook stories](./writing-storybook-stories.md) and [the anatomy of a component](./component-anatomy.md)
+See also: [Writing Storybook stories](./writing-storybook-stories.md).
 
 ### Props
 #### Follow Figma naming for props
