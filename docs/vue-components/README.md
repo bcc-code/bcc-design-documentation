@@ -41,6 +41,20 @@ module.exports = {
 
 If you want to customize the Tailwind `theme` in your local project, check out the [tokens documentation](../tokens/README.md#customize-theme).
 
+#### Disable dark mode
+Some of the components have some dark mode styles. These are not yet part of the design system and were just added for use in the Activity Registration app, so it is not recommended to use them.
+
+However, by default they will be enabled, which can lead to washed out colors if your app only has a light mode. It is therefore recommended to turn off dark mode in your app. It is not possible to turn off dark mode support in Tailwind but by changing to the [class strategy](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually) dark mode won't trigger as long as you don't put a `dark` class on your HTML.
+
+```js
+// tailwind.config.cjs
+module.exports = {
+  // ...
+  darkMode: 'class',
+  // ...
+}
+```
+
 ### Icons
 The Vue components will work with any SVG icon but are designed to work with the icons from the design system. See the [icons documentation](../icons/README.md) for installation and usage instructions.
 
