@@ -39,32 +39,7 @@ module.exports = {
 };
 ```
 
-If you want to customize the Tailwind `theme` in your local project, you can import all or parts of the theme by utilizing the spread operator, like this:
-
-```js
-  theme: {
-    extend: {
-      ...themes.bccForbundetTheme.extend,
-      // Your custom config here
-    },
-  }
-```
-
-Or selectively import only the parts you need. Be aware that most of these are needed by the components, and it's recommended to entirely omit certain parts of the theme:
-
-```js
-  theme: {
-    extend: {
-      colors: {
-        ...themes.bccForbundetTheme.colors,
-        'my-custom-color': {
-          100: "#123456",
-          // ...
-        }
-      }
-    },
-  }
-```
+If you want to customize the Tailwind `theme` in your local project, check out the [tokens documentation](../tokens/README.md#customize-theme).
 
 ### Icons
 The Vue components will work with any SVG icon but are designed to work with the icons from the design system. See the [icons documentation](../icons/README.md) for installation and usage instructions.
