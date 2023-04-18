@@ -17,47 +17,24 @@ Be aware that the tokens currently are only useable in Tailwind and with the def
 :::
 
 ## Import tokens in your Tailwind config
-You need to import the theme you want in your `tailwind.config.js`.
+You need to import the theme you want in your `tailwind.config.js`. The tokens are exposed as a theme using Tailwind's [preset](https://tailwindcss.com/docs/presets) feature. 
 
-```js{2,10}
+```js{2,6-8}
 // tailwind.config.cjs
 const themes = require("@bcc-code/design-tokens");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  presets: [
+    themes.bccForbundetTheme
+  ],
   content: [
     "./src/**/*.{vue,ts}",
     "./node_modules/@bcc-code/vue-components/dist/vue-components.js",
   ],
-  theme: themes.bccForbundetTheme,
   plugins: [],
 };
 ```
 
 ### Customize theme
-If you want to customize the Tailwind `theme` in your local project, you can import all or parts of the theme by utilizing the spread operator, like this:
-
-```js
-  theme: {
-    extend: {
-      ...themes.bccForbundetTheme.extend,
-      // Your custom config here
-    },
-  }
-```
-
-Or selectively import only the parts you need. Be aware that if you are using the Vue components most of the utilities are required, and it's not recommended to entirely omit certain parts of the theme:
-
-```js
-  theme: {
-    extend: {
-      colors: {
-        ...themes.bccForbundetTheme.colors,
-        'my-custom-color': {
-          100: "#123456",
-          // ...
-        }
-      }
-    },
-  }
-```
+If you want to customize the Tailwind `theme` in your local project, you can add a `theme` config like normal, in which you can even override the config from the tokens.

@@ -24,22 +24,22 @@ The components are styled with classes that are exported by the design tokens. Y
 Be sure to import the Vue components in your Tailwind `content` config, otherwise the utilities used by the library will not be present in your CSS output.
 :::
 
-```js{2,8,10}
+```js{2,6-8,11}
 // tailwind.config.cjs
 const themes = require("@bcc-code/design-tokens");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  presets: [
+    themes.bccForbundetTheme
+  ],
   content: [
     "./src/**/*.{vue,ts}",
     "./node_modules/@bcc-code/vue-components/dist/vue-components.js",
   ],
-  theme: themes.bccForbundetTheme,
   plugins: [],
 };
 ```
-
-If you want to customize the Tailwind `theme` in your local project, check out the [tokens documentation](../tokens/README.md#customize-theme).
 
 #### Disable dark mode
 Some of the components have some dark mode styles. These are not yet part of the design system and were just added for use in the Activity Registration app, so it is not recommended to use them.
