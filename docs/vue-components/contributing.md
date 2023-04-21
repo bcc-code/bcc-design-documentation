@@ -8,7 +8,7 @@ Components are usually first implemented in Figma by a designer and can then be 
 We welcome any contributions to the component library. It might be of interest to know the goals behind this:
 
 - **Consistent branding** across BCC software products: the primary goal behind the whole design system which informs all our decisions.
-- **Reduce development time and cost** for new projects through reusable UI/UX: the primary goal behind the component library. We want to solve UI challenges so developers can focus on their business logic.
+- **Reduce development time and cost** for new projects through reusable UI/UX: the primary goal behind the component library. We solve UI challenges so developers can focus on their business logic.
 - **Cost effective and future-proof** solution: the component library needs to be maintainable with relatively low effort.
 - **Pragmatic adoption** in existing ecosystem (Vue, Directus, Tailwind): the component library is specifically built for technologies that are broadly used in BCC IT so developers can start using it in their existing apps as well.
 
@@ -70,4 +70,4 @@ Commonly, a Vue Single File Component (SFC) includes a `script`, `template`, and
 2. Since we're using Tailwind, it's not needed to write any CSS. By ruling out the possibility of using custom classes, even when they're `scoped`, it's clear where CSS styling comes from: Tailwind
 
 #### Don't use `outline`
-Do not use the `outline` utilities from Tailwind for your components. These do not work in combination with a border radius on Safari, making the outline square instead of following the border radius. Instead, use `border` or `ring`.
+Do not use the `outline` utilities from Tailwind for your components. These do not work in combination with a border radius on Safari versions previous to 16.4, making the outline square instead of following the border radius. Instead, use `border` or `ring`.

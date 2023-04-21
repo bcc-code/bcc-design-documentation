@@ -45,3 +45,8 @@ Icons use an upper camel case naming convention and are always suffixed with the
 
 [Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@bcc-code/icons-vue)
 
+## Installing unreleased version
+To run code that has been merged but not released yet, install the `dev` version which points to the latest commit on the `main` branch:
+```sh
+npm install @bcc-code/icons-vue@dev
+```

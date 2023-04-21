@@ -38,3 +38,9 @@ module.exports = {
 
 ### Customize theme
 If you want to customize the Tailwind `theme` in your local project, you can add a `theme` config like normal, in which you can even override the config from the tokens.
+
+### Installing unreleased version
+To run code that has been merged but not released yet, install the `dev` version which points to the latest commit on the `main` branch:
+```sh
+npm install @bcc-code/design-tokens@dev
+```
