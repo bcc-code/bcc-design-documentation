@@ -9,15 +9,19 @@ Currently the CSS classes are a part of the Vue components package, so you need 
 
 <CodeGroup>
   <CodeGroupItem title="PNPM" active>
+
 ```sh
 pnpm add @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+
   </CodeGroupItem>
 
   <CodeGroupItem title="NPM">
+
 ```sh
 npm install @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+
   </CodeGroupItem>
 </CodeGroup>
 

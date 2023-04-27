@@ -9,9 +9,23 @@ The icons used in the BCC design system are SVG icons based on [Material Symbols
 
 ## Usage
 The `@bcc-code/icons` package contains raw SVG icons. You can install it from npm:
+<CodeGroup>
+  <CodeGroupItem title="PNPM" active>
+
 ```sh
-npm install @bcc-code/icons
+pnpm add @bcc-code/icons@latest
 ```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="NPM">
+
+```sh
+npm install @bcc-code/icons@latest
+```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 But in most cases, you should install a framework-specific package. Currently only a Vue version is offered, which can be used together with the [Vue components](../vue-components/README.md).
 
@@ -22,9 +36,23 @@ Note that this package is only compatible with Vue 3.
 
 First, install `@bcc-code/icons-vue` from npm:
 
+<CodeGroup>
+  <CodeGroupItem title="PNPM" active>
+
+```sh
+pnpm add @bcc-code/icons-vue@latest
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="NPM">
+
 ```sh
 npm install @bcc-code/icons-vue@latest
 ```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 Now each icon can be imported individually as a Vue component:
 
@@ -47,6 +75,21 @@ Icons use an upper camel case naming convention and are always suffixed with the
 
 ## Installing unreleased version
 To run code that has been merged but not released yet, install the `dev` version which points to the latest commit on the `main` branch:
+
+<CodeGroup>
+  <CodeGroupItem title="PNPM" active>
+
+```sh
+pnpm add @bcc-code/icons-vue@dev
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="NPM">
+
 ```sh
 npm install @bcc-code/icons-vue@dev
 ```
+
+  </CodeGroupItem>
+</CodeGroup>

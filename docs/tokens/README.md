@@ -8,9 +8,24 @@ The BCC design system uses tokens to style different components. This enables a 
 [![design tokens version](https://img.shields.io/npm/v/@bcc-code/design-tokens/latest?label=%40bcc-code%2Fdesign-tokens)](https://github.com/bcc-code/bcc-design-tokens/releases)
 
 Install the tokens package with npm:
+
+<CodeGroup>
+  <CodeGroupItem title="PNPM" active>
+
+```sh
+pnpm add @bcc-code/design-tokens@latest
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="NPM">
+
 ```sh
 npm install @bcc-code/design-tokens@latest
 ```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 ::: warning HEADS UP
 Be aware that the tokens currently are only useable in Tailwind and with the default BCC Forbundet theme. We're still iterating on this, so expect support for more platforms and themes in the future.
