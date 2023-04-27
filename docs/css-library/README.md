@@ -8,21 +8,17 @@ Currently the CSS classes are a part of the Vue components package, so you need 
 [![vue components version](https://img.shields.io/npm/v/@bcc-code/vue-components/latest?label=%40bcc-code%2Fvue-components)](https://github.com/bcc-code/bcc-vue-components/releases) [![design tokens version](https://img.shields.io/npm/v/@bcc-code/design-tokens/latest?label=%40bcc-code%2Fdesign-tokens)](https://github.com/bcc-code/bcc-design-tokens/releases)
 
 <CodeGroup>
-    <CodeGroupItem title="PNPM" active>
-
+  <CodeGroupItem title="PNPM" active>
 ```sh
 pnpm add @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+  </CodeGroupItem>
 
-    </CodeGroupItem>
-
-    <CodeGroupItem title="NPM">
-
+  <CodeGroupItem title="NPM">
 ```sh
 npm install @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
-
-    </CodeGroupItem>
+  </CodeGroupItem>
 </CodeGroup>
 
 ### Import CSS
