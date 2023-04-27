@@ -13,9 +13,19 @@ Be sure to read the [design system guidelines](../guidelines.md) to know how and
 [![vue components version](https://img.shields.io/npm/v/@bcc-code/vue-components/latest?label=%40bcc-code%2Fvue-components)](https://github.com/bcc-code/bcc-vue-components/releases) [![design tokens version](https://img.shields.io/npm/v/@bcc-code/design-tokens/latest?label=%40bcc-code%2Fdesign-tokens)](https://github.com/bcc-code/bcc-design-tokens/releases)
 
 The components in the package are styled with the design tokens, which you need to install as well:
+<CodeGroup>
+    <CodeGroupItem title="PNPM" active>
+```sh
+pnpm add @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
+```
+    </CodeGroupItem>
+
+    <CodeGroupItem title="NPM">
 ```sh
 npm install @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+    </CodeGroupItem>
+</CodeGroup>
 
 ### 3. Import CSS
 The Vue components are lightweight wrapper around the CSS library. You need to import the CSS classes in your main CSS file to be able to use them:
