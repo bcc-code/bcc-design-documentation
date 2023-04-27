@@ -15,15 +15,19 @@ Be sure to read the [design system guidelines](../guidelines.md) to know how and
 The components in the package are styled with the design tokens, which you need to install as well:
 <CodeGroup>
     <CodeGroupItem title="PNPM" active>
+
 ```sh
 pnpm add @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+
     </CodeGroupItem>
 
     <CodeGroupItem title="NPM">
+
 ```sh
 npm install @bcc-code/vue-components@latest @bcc-code/design-tokens@latest
 ```
+
     </CodeGroupItem>
 </CodeGroup>
 
