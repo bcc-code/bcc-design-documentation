@@ -6,10 +6,10 @@ The CSS library can be used in four different ways. Depending on your project co
 You will need to do your own purging of classes if you only want to include the component classes you're using, because we can't determine that when compiling the library. When using the default setup Tailwind takes care of this.
 
 ### 1. Project with Vue and Tailwind
-In a project with Vue and Tailwind. See the [Vue components](../vue-components/README.md) documentation for that.
+We have first class support for Vue, see the [Vue components](../vue-components/README.md) documentation on how to set it up.
 
 ### 2. Project with npm and Tailwind
-In a frontend/JavaScript project without Vue, but where you still use npm and Tailwind. Follow the [installation instructions](../vue-components/README.md#2-install-packages) for the components for that, as the setup is the same even if you're not using Vue.
+In a frontend/JavaScript project without Vue, but where you still use npm and Tailwind, follow the [installation instructions](../vue-components/README.md#2-install-packages) for the components, as the setup is the same even if you're not using Vue.
 
 ### 3. Project with npm and without Tailwind
 It is strongly recommended to use Tailwind in any case. This can be achieved by installing Tailwind and [prefixing](https://tailwindcss.com/docs/configuration#prefix) all Tailwind classes so they don't clash with your existing CSS. Then follow the [installation instructions](../vue-components/README.md#2-install-packages) for the components.
