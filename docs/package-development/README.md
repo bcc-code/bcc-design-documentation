@@ -3,7 +3,7 @@ sectionOrder: 100
 ---
 
 # Developing npm packages
-Several npm packages are part of the BCC design system, such as [@bcc-code/vue-components](https://github.com/bcc-code/bcc-vue-components) and [@bcc-code/design-tokens](https://github.com/bcc-code/bcc-design-tokens). These packages are developed in their own repositories and versioned independently.
+Several npm packages are part of the BCC design system, such as [@bcc-code/vue-components](https://github.com/bcc-code/bcc-design-components) and [@bcc-code/design-tokens](https://github.com/bcc-code/bcc-design-tokens). These packages are developed in their own repositories and versioned independently.
 
 ## Versioning
 All packages are versioned according to [SemVer](https://semver.org/). The current state of the design system means that none of the packages can be considered stable. Therefore they start at v0.1.0 and will continue to be a 0.x version until we consider both the package and the design system in a state where we can recommend any BCC project to start using it.

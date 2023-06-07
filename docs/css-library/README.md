@@ -50,7 +50,7 @@ In projects that lack a setup with npm and Tailwind, like for example WordPress,
 https://unpkg.com/@bcc-code/vue-components@latest/dist/style.css
 ```
 
-Note that it's recommended to pin the version to a specific [version](https://github.com/bcc-code/bcc-vue-components/releases) of the Vue components instead of the `latest` tag.
+Note that it's recommended to pin the version to a specific [version](https://github.com/bcc-code/bcc-design-components/releases) of the Vue components instead of the `latest` tag.
 
 ::: warning HEADS UP
 This will just include the component classes and not the [tokens](../tokens/README.md), and we therefore do recommend looking into a setup with npm and Tailwind to easily apply all aspects of the design system to your interface.
@@ -59,4 +59,4 @@ This will just include the component classes and not the [tokens](../tokens/READ
 ## Using classes
 The classes follow a naming convention of `.bcc-<component-name><-optional-modifier>`, so for example the button has `.bcc-button` base class and `.bcc-button-primary` for the primary variant and `.bcc-button-xl` for the `xl` size. Applying all three classes gives you an XL primary button.
 
-At the moment there is no separate documentation about all the CSS classes. One way to find out which classes to use are to use Inspect element on the [Vue components Storybook](https://vue-components-storybook.developer.bcc.no/) to view which classes are added with which prop. Or check out the [components source](https://github.com/bcc-code/bcc-vue-components/tree/main/src/components).
+At the moment there is no separate documentation about all the CSS classes. One way to find out which classes to use are to use Inspect element on the [Vue components Storybook](https://vue-components-storybook.developer.bcc.no/) to view which classes are added with which prop. Or check out the [components source](https://github.com/bcc-code/bcc-design-components/tree/main/src/components).
