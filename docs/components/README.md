@@ -1,8 +1,4 @@
 # Getting Started
-::: warning
-This documentation is work in progress of a new setup. Refer to the existing [CSS library](../css-library/README.md) or [Vue components](../vue-components/README.md) documentation for usage with the latest released version.
-:::
-
 The design system consists of a set of [guidelines](../guidelines.md) and components. At the moment these components can be used by installing one of these libraries:
 
 - [@bcc-code/vue-components](./vue-components.md) when using Vue 3
