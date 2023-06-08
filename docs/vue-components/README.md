@@ -1,3 +1,7 @@
+---
+hideSection: true
+---
+
 # Vue components
 
 ::: warning MOVED

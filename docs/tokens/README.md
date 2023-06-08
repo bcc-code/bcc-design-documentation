@@ -1,3 +1,7 @@
+---
+hideSection: true
+---
+
 # Tokens
 
 ::: danger DEPRECATED
