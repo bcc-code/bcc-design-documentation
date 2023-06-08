@@ -53,13 +53,13 @@ In some cases this might not work, depending on the set up of your build tool, w
 All classes are added on the Tailwind [component layer](https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer), which means that even if the CSS is imported at the top of the file it will still be inserted at the right place in your CSS, so component classes can be overridden with utility classes.
 
 ##### Import tokens in your Tailwind config
-You need to import the theme you want in your `tailwind.config.js`.
+Importing the theme in your Tailwind config consists of three parts:
 
-::: tip HEADS UP
-Be sure to import the Vue components in your Tailwind `content` config, otherwise the utilities used by the library will not be present in your CSS output.
-:::
+1. Import the theme you want
+2. Add the Vue components in your Tailwind `content` config, otherwise the utilities used by the library will not be present in your CSS output.
+3. Import the Tailwind plugin for the theme. This will add some required CSS variables which are used by the component library.
 
-```js{2,6-8,11}
+```js{2,6-8,11,14}
 // tailwind.config.cjs
 const themes = require("@bcc-code/vue-components");
 
@@ -105,7 +105,7 @@ Or if you need to use the full path:
 @import "node_modules/@bcc-code/vue-components/dist/style.css";
 ```
 
-This approach has a few caveats:
+This approach has a few downsides:
   - Only the component classes are included, not other design system tokens.
-  - All classes for all components are included, so you need to do your own purging of classes if you want to only include what you use.
+  - When using Tailwind it's possible to style components with utility classes, because the component classes are inserted into the output CSS before the utilities. You would need to take care of that yourself when importing all the styles.
 
