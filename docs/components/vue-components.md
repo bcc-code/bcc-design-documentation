@@ -94,7 +94,7 @@ module.exports = {
 }
 ```
 
-### Without Tailwind
+#### Without Tailwind
 We strongly recommend to use Tailwind, especially in new apps, but if this is not possible due to an existing setup, you can include the compiled CSS file in your CSS:
 
 ```css
