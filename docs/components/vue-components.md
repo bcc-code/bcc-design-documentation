@@ -6,6 +6,10 @@ order: 10
 This documentation is work in progress of a new setup. Refer to the existing [CSS library](../css-library/README.md) or [Vue components](../vue-components/README.md) documentation for usage with the latest released version.
 :::
 
+::: tip
+View interactive examples of the components [in Storybook](https://vue-components-storybook.developer.bcc.no)
+:::
+
 ## Prerequisites
 The Vue components depend on [Vue 3](https://vuejs.org/). The components are intended to be used together with [Tailwind](https://tailwindcss/com). It is possible to use the components in a project without Tailwind but this has a few caveats.
 

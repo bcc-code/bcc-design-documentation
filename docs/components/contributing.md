@@ -23,13 +23,18 @@ Before a component can be added to the library, answer these questions affirmati
 - Has the component been **documented**? Is there a usage example? Make sure all different states are covered by a story.
 
 ## Building Vue components
+All components are built with Vue first, with the CSS library produced as an artifact of that process. This means that all the components have good examples in [Storybook](https://vue-components-storybook.developer.bcc.no).
+
 ### Adding a component
 Start by creating a new component:
 ```sh
 npm run create-component ComponentName
 ```
+This will also create a stories, test and CSS file for the component.
 
 Every component should be prefixed with `Bcc`, such as `BccButton`. This prevents clashes with local components and native HTML elements.
+
+Every component should have at least one story which shows the default state of the component. See also: [Writing Storybook stories](./writing-storybook-stories.md).
 
 ### Do's and Don'ts
 See also: [Writing Storybook stories](./writing-storybook-stories.md).
@@ -64,6 +69,6 @@ From the [Vue documentation](https://vuejs.org/guide/components/attrs.html#disab
 
 #### Styling
 ##### Don't use `<style>` in an SFC
-Commonly, a Vue Single File Component (SFC) includes a `script`, `template`, and `style` tag. The use of a `style` tag should be avoided, for two reasons:
-1. Adding classes this way will generate a CSS file in the output. We don't want consumers of this Vue component library having to include a separate CSS file
-2. Since we're using Tailwind, it's not needed to write any CSS. By ruling out the possibility of using custom classes, even when they're `scoped`, it's clear where CSS styling comes from: Tailwind
+Commonly, a Vue Single File Component (SFC) includes a `script`, `template`, and `style` tag. The use of a `style` tag should be avoided. All CSS should be part of the CSS library, which includes every file from `src/css`.
+
+When necessary, Tailwind utilities can be used for one-off layout issues in the Vue components. But be aware that by not including these CSS properties in the CSS classes, any users that don't use Vue also need to add CSS for this, so do this sparingly.
