@@ -8,6 +8,10 @@ The design system consists of a set of [guidelines](../guidelines.md) and compon
 - [@bcc-code/vue-components](./vue-components.md) when using Vue 3
 - [@bcc-code/design-components](./css-library.md) when not using Vue 3.
 
+::: tip
+View interactive examples of the components [in Storybook](https://vue-components-storybook.developer.bcc.no)
+:::
+
 ## Usage without npm
 In projects that lack a setup with npm, like for example WordPress, you can still include the compiled CSS file from a CDN, for example from Unpkg:
 

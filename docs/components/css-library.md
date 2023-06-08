@@ -6,6 +6,10 @@ order: 20
 This documentation is work in progress of a new setup. Refer to the existing [CSS library](../css-library/README.md) or [Vue components](../vue-components/README.md) documentation for usage with the latest released version.
 :::
 
+::: tip
+View interactive examples of the components [in Storybook](https://vue-components-storybook.developer.bcc.no)
+:::
+
 For project that don't use Vue we offer a CSS library with classes for all the components. Note that some components might require JavaScript for interactive parts, which you would need to write yourself, although you could take inspiration from the [Vue source](https://github.com/bcc-code/bcc-design-components/tree/main/src/components).
 
 ## Installation and usage
