@@ -9,6 +9,8 @@ View interactive examples of the components [in Storybook](https://vue-component
 For project that don't use Vue we offer a CSS library with classes for all the components. Note that some components might require JavaScript for interactive parts, which you would need to write yourself, although you could take inspiration from the [Vue source](https://github.com/bcc-code/bcc-design-components/tree/main/src/components).
 
 ## Installation and usage
+The `latest` tag is the recommended, most stable version of the library. It is also possible to install a `dev` version (swap `@latest` out for `@dev` in the examples below), which always points to the latest commit on the `main` branch.
+
 ### 1. Install package
 [![design components version](https://img.shields.io/npm/v/@bcc-code/design-components/latest?label=%40bcc-code%2Fdesign-components)](https://github.com/bcc-code/bcc-design-components/releases)
 
@@ -35,7 +37,7 @@ You need to import the CSS classes in your main CSS file to be able to use them:
 
 ```css
 /* main.css */
-@import "@bcc-code/vue-components/tailwind/index.css";
+@import "@bcc-code/design-components/tailwind/index.css";
 
 @tailwind ...
 ```
@@ -44,7 +46,7 @@ In some cases this might not work, depending on the set up of your build tool, w
 
 ```css
 /* main.css */
-@import "node_modules/@bcc-code/vue-components/dist_css/tailwind/index.css";
+@import "node_modules/@bcc-code/design-components/dist_css/tailwind/index.css";
 
 @tailwind ...
 ```
@@ -92,19 +94,21 @@ We strongly recommend to use Tailwind, especially in new apps, but if this is no
 
 ```css
 /* main.css */
-@import "@bcc-code/vue-components/style.css";
+@import "@bcc-code/design-components/style.css";
 ```
 
 Or if you need to use the full path:
 
 ```css
 /* main.css */
-@import "node_modules/@bcc-code/vue-components/dist/style.css";
+@import "node_modules/@bcc-code/design-components/dist/style.css";
 ```
 
 This approach has a few downsides:
   - Only the component classes are included, not other design system tokens.
   - When using Tailwind it's possible to style components with utility classes, because the component classes are inserted into the output CSS before the utilities. You would need to take care of that yourself when importing all the styles.
 
+## Using classes
+The classes follow a naming convention of `.bcc-<component-name><-optional-modifier>`, so for example the button has `.bcc-button` base class and `.bcc-button-primary` for the primary variant and `.bcc-button-xl` for the `xl` size. Applying all three classes gives you an XL primary button.
 
-
+At the moment there is no separate documentation about all the CSS classes. One way to find out which classes to use are to use Inspect element on the [components Storybook](https://vue-components-storybook.developer.bcc.no/) to view which classes are added with which prop. Or check out the [components source](https://github.com/bcc-code/bcc-design-components/tree/main/src/components).

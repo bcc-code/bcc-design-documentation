@@ -27,7 +27,7 @@ npm install @bcc-code/icons@latest
   </CodeGroupItem>
 </CodeGroup>
 
-But in most cases, you should install a framework-specific package. Currently only a Vue version is offered, which can be used together with the [Vue components](../vue-components/README.md).
+But in most cases, you should install a framework-specific package. Currently only a Vue version is offered, which can be used together with the [Vue components](../components/vue-components.md).
 
 ### Vue
 Note that this package is only compatible with Vue 3.

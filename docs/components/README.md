@@ -12,7 +12,7 @@ View interactive examples of the components [in Storybook](https://vue-component
 In projects that lack a setup with npm, like for example WordPress, you can still include the compiled CSS file from a CDN, for example from Unpkg:
 
 ```
-https://unpkg.com/@bcc-code/vue-components@latest/dist/style.css
+https://unpkg.com/@bcc-code/design-components@latest/dist/style.css
 ```
 
 Note that it's recommended to pin the version to a specific [version](https://github.com/bcc-code/bcc-design-components/releases) of the Vue components instead of the `latest` tag.

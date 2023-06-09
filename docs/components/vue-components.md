@@ -10,6 +10,8 @@ View interactive examples of the components [in Storybook](https://vue-component
 The Vue components depend on [Vue 3](https://vuejs.org/). The components are intended to be used together with [Tailwind](https://tailwindcss/com). It is possible to use the components in a project without Tailwind but this has a few caveats.
 
 ## Installation and usage
+The `latest` tag is the recommended, most stable version of the library. It is also possible to install a `dev` version (swap `@latest` out for `@dev` in the examples below), which always points to the latest commit on the `main` branch.
+
 ### 1. Install package
 [![vue components version](https://img.shields.io/npm/v/@bcc-code/vue-components/latest?label=%40bcc-code%2Fvue-components)](https://github.com/bcc-code/bcc-design-components/releases)
 
