@@ -90,6 +90,10 @@ module.exports = {
 ```
 
 #### Without Tailwind
+::: warning HEADS UP
+Currently the compiled CSS includes Tailwind's [preflight base reset](https://tailwindcss.com/docs/preflight). See [this issue](https://github.com/bcc-code/bcc-design-components/issues/99) for status on removing this.
+:::
+
 We strongly recommend to use Tailwind, especially in new apps, but if this is not possible due to an existing setup, you can include the compiled CSS file in your CSS:
 
 ```css
