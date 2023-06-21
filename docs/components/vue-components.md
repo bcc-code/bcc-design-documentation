@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 20
 ---
 # Vue components
 ::: tip
