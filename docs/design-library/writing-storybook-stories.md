@@ -78,6 +78,30 @@ This will render a nice text field where the user can edit the slot contents.
 ![](./contributing/storybook-slot.png)
 :::
 
+### Custom code example
+For interactive stories Storybook often does a bad job at representing the code example. Other stories just display the string from the file (thus always being exactly what's rendered), but for interactive stories some processing is going on.
+
+The solution is to include a custom code example. A small downside is that this needs to be kept up-to-date along with the actual used code, but since the interactive examples are often not representative for how the component should actually be used this is a worthwhile tradeoff.
+
+To render a custom code example, include a `parameters` block:
+
+```js
+Example.parameters = {
+  docs: {
+    source: {
+      language: "html",
+      code: `
+<BccButton :icon="SearchIcon">
+  Example Button
+</BccButton>
+    `,
+    },
+  },
+};
+```
+
+This example should include things like `v-model` that might for various reasons not always be used in the actual code of the Example story.
+
 ## Other stories
 Besides the `Example` story, all the other stories should be a simple as possible. This way it is easy to add or edit them. In general, you should try to show all the different states of a component with stories. Often, it is nice to create a story for each prop.
 
