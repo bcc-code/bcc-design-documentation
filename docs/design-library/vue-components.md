@@ -3,7 +3,7 @@ order: 20
 ---
 # Vue components
 ::: tip
-View interactive examples of the components [in Storybook](https://vue-components-storybook.developer.bcc.no)
+View interactive examples of the components [in Storybook](https://design-library.developer.bcc.no)
 :::
 
 ## Prerequisites

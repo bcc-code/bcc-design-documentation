@@ -23,7 +23,7 @@ Before a component can be added to the library, answer these questions affirmati
 - Has the component been **documented**? Is there a usage example? Make sure all different states are covered by a story.
 
 ## Building Vue components
-All components are built with Vue first, with the CSS library produced as an artifact of that process. This means that all the components have good examples in [Storybook](https://vue-components-storybook.developer.bcc.no).
+All components are built with Vue first, with the CSS library produced as an artifact of that process. This means that all the components have good examples in [Storybook](https://design-library.developer.bcc.no).
 
 ### Adding a component
 Start by creating a new component:
