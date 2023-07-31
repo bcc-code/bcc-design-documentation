@@ -1,3 +1,5 @@
+## **Deprecrated** This repository was moved into the monorepo [bcc-design](https://github.com/bcc-code/bcc-design)
+
 <p align="center">
   <img src="https://design.bcc.no/logos/bcc_logo_secondary.svg" width="120" style="margin-bottom: 10px;">
 </p>
